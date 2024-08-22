@@ -1,7 +1,7 @@
 #ifndef INPUT_H
 #define INPUT_H
 
-// Cek input dari Serial Monitor
+// Checking Input From Serial Monitor
 void cek_serial(){
   if (Serial.available() > 0) {
     String input = Serial.readString();
@@ -13,4 +13,12 @@ void cek_serial(){
     Serial.println(input);
   }
 }
+
+// Receive Data From Sensor
+// Sensor ID
+
+// Sensor Array
+
+
+
 #endif 
