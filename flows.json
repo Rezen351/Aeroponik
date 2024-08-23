@@ -8,14 +8,6 @@
         "env": []
     },
     {
-        "id": "5fb4971f9d43530d",
-        "type": "tab",
-        "label": "Flow 2",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "64bdd599f9c61914",
         "type": "mqtt-broker",
         "name": "",
@@ -183,9 +175,318 @@
         }
     },
     {
+        "id": "03fa6e045770563b",
+        "type": "MySQLdatabase",
+        "name": "Database",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "Aeroponik New",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "dfee6ab0d6a08e2f",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#e0f7fa",
+                "baseFont": "Tahoma,Geneva,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#4B7930",
+                    "value": "#e0f7fa",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#00796b",
+                    "edited": true
+                },
+                "page-backgroundColor": {
+                    "value": "#e0f7fa",
+                    "edited": true
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#004d40",
+                    "edited": true
+                },
+                "group-textColor": {
+                    "value": "#fafafa",
+                    "edited": true
+                },
+                "group-borderColor": {
+                    "value": "#e0f7fa",
+                    "edited": true
+                },
+                "group-backgroundColor": {
+                    "value": "#e0f7fa",
+                    "edited": true
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#00796b",
+                    "edited": true
+                },
+                "widget-borderColor": {
+                    "value": "#e0f7fa",
+                    "edited": true
+                },
+                "base-font": {
+                    "value": "Tahoma,Geneva,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "SMART 2024",
+            "hideToolbar": "false",
+            "allowSwipe": "true",
+            "lockMenu": "true",
+            "allowTempTheme": "false",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 40,
+                "sy": 40,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "5bd2c1ed0cfe7a87",
+        "type": "ui_group",
+        "name": "Siang",
+        "tab": "5651e8ce8dd897b0",
+        "order": 1,
+        "disp": false,
+        "width": "18",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4be9e04c9c51f3fc",
+        "type": "ui_group",
+        "name": "Browser",
+        "tab": "a10c81c5ff623c40",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ae91f222be969727",
+        "type": "ui_group",
+        "name": "Home",
+        "tab": "cc409f22204b54fd",
+        "order": 1,
+        "disp": false,
+        "width": 18,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "824976436fdc2068",
+        "type": "ui_group",
+        "name": "SettingPupuk",
+        "tab": "cca264a071a763cd",
+        "order": 1,
+        "disp": false,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a10c81c5ff623c40",
+        "type": "ui_tab",
+        "name": "Camera",
+        "icon": "fa-camera ",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "da033ba0d3cdcfd7",
+        "type": "ui_group",
+        "name": "View",
+        "tab": "a10c81c5ff623c40",
+        "order": 2,
+        "disp": false,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5651e8ce8dd897b0",
+        "type": "ui_tab",
+        "name": "Setting",
+        "icon": "fa-wrench ",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "cc409f22204b54fd",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "fa-home ",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "cca264a071a763cd",
+        "type": "ui_tab",
+        "name": "Pupuk",
+        "icon": "dashboard",
+        "order": 8,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "37ddc87dd83ef5a7",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "localhost",
+        "port": "3306",
+        "db": "aeroponik24",
+        "tz": "",
+        "charset": ""
+    },
+    {
+        "id": "49b5751fa3437b17",
+        "type": "ui_tab",
+        "name": "Data",
+        "icon": "fa-line-chart ",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "2edf52e4c2e84a2c",
+        "type": "ui_group",
+        "name": "Waktu",
+        "tab": "49b5751fa3437b17",
+        "order": 1,
+        "disp": false,
+        "width": "4",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "380cf67d39a9bb66",
+        "type": "ui_group",
+        "name": "Chart",
+        "tab": "49b5751fa3437b17",
+        "order": 2,
+        "disp": false,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "56225b278f1df8be",
+        "type": "ui_group",
+        "name": "Sensor Values",
+        "tab": "2f0cb1b176c9074f",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2f0cb1b176c9074f",
+        "type": "ui_tab",
+        "name": "Database",
+        "icon": "dashboard",
+        "order": 12,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "5d1c8f7333ab742e",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "fa-home ",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "3c5b98af9c751fd2",
+        "type": "serial-port",
+        "name": "Data_Sensor 1-6",
+        "serialport": "/dev/ttyUSB1",
+        "serialbaud": "9600",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "b2a9f3518e88ac70",
+        "type": "serial-port",
+        "name": "Data_Sensor 7-12",
+        "serialport": "/dev/ttyUSB0",
+        "serialbaud": "9600",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
         "id": "0ee19da4c3902947",
         "type": "ui_switch",
-        "z": "5fb4971f9d43530d",
+        "z": "b3992304f85322cf",
         "name": "",
         "label": "switch",
         "tooltip": "",
@@ -208,8 +509,8 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 210,
-        "y": 320,
+        "x": 190,
+        "y": 500,
         "wires": [
             [
                 "1530eb2f79a77dac",
@@ -220,7 +521,7 @@
     {
         "id": "1530eb2f79a77dac",
         "type": "mqtt out",
-        "z": "5fb4971f9d43530d",
+        "z": "b3992304f85322cf",
         "name": "",
         "topic": "nodered/control",
         "qos": "",
@@ -231,14 +532,14 @@
         "correl": "",
         "expiry": "",
         "broker": "64bdd599f9c61914",
-        "x": 420,
-        "y": 320,
+        "x": 400,
+        "y": 500,
         "wires": []
     },
     {
         "id": "9394bf71bc65f8fe",
         "type": "mqtt in",
-        "z": "5fb4971f9d43530d",
+        "z": "b3992304f85322cf",
         "name": "",
         "topic": "nodered/output",
         "qos": "2",
@@ -248,8 +549,8 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 220,
-        "y": 200,
+        "x": 200,
+        "y": 380,
         "wires": [
             [
                 "5c90ed0bf8d2d3b6",
@@ -260,7 +561,7 @@
     {
         "id": "5c90ed0bf8d2d3b6",
         "type": "ui_text",
-        "z": "5fb4971f9d43530d",
+        "z": "b3992304f85322cf",
         "group": "61cb93ff.8cf4a4",
         "order": 1,
         "width": 0,
@@ -274,30 +575,31 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 390,
-        "y": 200,
+        "x": 370,
+        "y": 380,
         "wires": []
     },
     {
         "id": "3092345b7bbabeef",
         "type": "debug",
-        "z": "5fb4971f9d43530d",
+        "z": "b3992304f85322cf",
         "name": "debug 2",
         "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "false",
+        "complete": "payload",
+        "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 440,
-        "y": 120,
+        "x": 420,
+        "y": 300,
         "wires": []
     },
     {
         "id": "1c733b0e383b780e",
         "type": "debug",
-        "z": "5fb4971f9d43530d",
+        "z": "b3992304f85322cf",
         "name": "debug 3",
         "active": true,
         "tosidebar": true,
@@ -306,14 +608,14 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 520,
-        "y": 260,
+        "x": 500,
+        "y": 440,
         "wires": []
     },
     {
         "id": "8f6ab52327b5f21e",
         "type": "ui_text_input",
-        "z": "5fb4971f9d43530d",
+        "z": "b3992304f85322cf",
         "name": "",
         "label": "",
         "tooltip": "",
@@ -328,8 +630,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "msg",
-        "x": 220,
-        "y": 420,
+        "x": 200,
+        "y": 600,
         "wires": [
             [
                 "3bffb007083a2dfe",
@@ -340,7 +642,7 @@
     {
         "id": "3bffb007083a2dfe",
         "type": "mqtt out",
-        "z": "5fb4971f9d43530d",
+        "z": "b3992304f85322cf",
         "name": "",
         "topic": "nodered/input_text",
         "qos": "",
@@ -351,14 +653,14 @@
         "correl": "",
         "expiry": "",
         "broker": "64bdd599f9c61914",
-        "x": 430,
-        "y": 420,
+        "x": 410,
+        "y": 600,
         "wires": []
     },
     {
         "id": "ed2c81ca92b00c72",
         "type": "debug",
-        "z": "5fb4971f9d43530d",
+        "z": "b3992304f85322cf",
         "name": "debug 4",
         "active": true,
         "tosidebar": true,
@@ -367,8 +669,158 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 400,
-        "y": 480,
+        "x": 380,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "mqtt-in-node",
+        "type": "mqtt in",
+        "z": "b3992304f85322cf",
+        "name": "Sensor Data",
+        "topic": "sensor/data",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "64bdd599f9c61914",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 230,
+        "y": 760,
+        "wires": [
+            [
+                "json-node"
+            ]
+        ]
+    },
+    {
+        "id": "json-node",
+        "type": "json",
+        "z": "b3992304f85322cf",
+        "name": "Parse JSON",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 470,
+        "y": 760,
+        "wires": [
+            [
+                "function-node"
+            ]
+        ]
+    },
+    {
+        "id": "function-node",
+        "type": "function",
+        "z": "b3992304f85322cf",
+        "name": "Set Global",
+        "func": "// Retrieve previous values from global context\nvar previousTemp1 = global.get(\"temp1\") || null;\nvar previousHum1 = global.get(\"hum1\") || null;\n\nvar previousTemp2 = global.get(\"temp2\") || null;\nvar previousHum2 = global.get(\"hum2\") || null;\n\nvar previousTemp3 = global.get(\"temp3\") || null;\nvar previousHum3 = global.get(\"hum3\") || null;\n\n// Ensure the payload has at least 6 elements\nif (Array.isArray(msg.payload) && msg.payload.length >= 6) {\n    var sensor1_temp = msg.payload[0] !== undefined ? msg.payload[0] : previousTemp1;\n    var sensor1_hum = msg.payload[1] !== undefined ? msg.payload[1] : previousHum1;\n\n    var sensor2_temp = msg.payload[2] !== undefined ? msg.payload[2] : previousTemp2;\n    var sensor2_hum = msg.payload[3] !== undefined ? msg.payload[3] : previousHum2;\n\n    var sensor3_temp = msg.payload[4] !== undefined ? msg.payload[4] : previousTemp3;\n    var sensor3_hum = msg.payload[5] !== undefined ? msg.payload[5] : previousHum3;\n} else {\n    // If payload is not as expected, use previous values\n    var sensor1_temp = previousTemp1;\n    var sensor1_hum = previousHum1;\n\n    var sensor2_temp = previousTemp2;\n    var sensor2_hum = previousHum2;\n\n    var sensor3_temp = previousTemp3;\n    var sensor3_hum = previousHum3;\n}\n\n// Store variables in the global context\nglobal.set(\"temp1\", sensor1_temp);\nglobal.set(\"hum1\", sensor1_hum);\nglobal.set(\"temp2\", sensor2_temp);\nglobal.set(\"hum2\", sensor2_hum);\nglobal.set(\"temp3\", sensor3_temp);\nglobal.set(\"hum3\", sensor3_hum);\n\nmsg.payload = {\n    temp1: sensor1_temp,\n    hum1: sensor1_hum,\n    temp2: sensor2_temp,\n    hum2: sensor2_hum,\n    temp3: sensor3_temp,\n    hum3: sensor3_hum,\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 760,
+        "wires": [
+            [
+                "1237c7792c8f8d16"
+            ]
+        ]
+    },
+    {
+        "id": "7a9b75e914d4e82f",
+        "type": "function",
+        "z": "b3992304f85322cf",
+        "name": "Write Data",
+        "func": "// Ambil global variables\nvar temp1 = global.get(\"temp1\");\nvar temp2 = global.get(\"temp2\");\nvar temp3 = global.get(\"temp3\");\n\nvar hum1 = global.get(\"hum1\");\nvar hum2 = global.get(\"hum2\");\nvar hum3 = global.get(\"hum3\");\n\n\n\n// SQL queries to insert sensor data into the table\nlet queries = [];\n\n// Insert for sensor 1\nqueries.push({\n    topic: `\n      INSERT INTO \\`Value\\` (sensor_id, val1, val2)\n      VALUES (?, ?, ?);\n    `,\n    payload: [1,  temp1, hum1 ]\n});\n\n// Insert for sensor 2\nqueries.push({\n  topic: `\n      INSERT INTO \\`Value\\` (sensor_id, val1, val2)\n      VALUES (?, ?, ?);\n    `,\n  payload: [2, temp2, hum2]\n});\n\n// Insert for sensor 3\nqueries.push({\n  topic: `\n      INSERT INTO \\`Value\\` (sensor_id, val1, val2)\n      VALUES (?, ?, ?);\n    `,\n  payload: [3, temp3, hum3]\n});\n\nreturn [queries];\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 1000,
+        "wires": [
+            [
+                "2148927de84d6799",
+                "9af79870142d356d"
+            ]
+        ]
+    },
+    {
+        "id": "2148927de84d6799",
+        "type": "debug",
+        "z": "b3992304f85322cf",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "9af79870142d356d",
+        "type": "mysql",
+        "z": "b3992304f85322cf",
+        "mydb": "03fa6e045770563b",
+        "name": "Database",
+        "x": 600,
+        "y": 1000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "35175cb02f24e675",
+        "type": "inject",
+        "z": "b3992304f85322cf",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "10",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 1000,
+        "wires": [
+            [
+                "7a9b75e914d4e82f"
+            ]
+        ]
+    },
+    {
+        "id": "1237c7792c8f8d16",
+        "type": "debug",
+        "z": "b3992304f85322cf",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 700,
         "wires": []
     }
 ]

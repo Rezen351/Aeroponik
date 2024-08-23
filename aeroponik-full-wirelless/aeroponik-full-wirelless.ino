@@ -1,6 +1,8 @@
 #include "wifi_setup.h"
 #include "mqtt_setup.h"
 #include "input.h"
+
+
 void setup() {
   Serial.begin(9600);
   wifi_setup();
@@ -13,4 +15,6 @@ void loop() {
 
   //Input
   cek_serial();
+  //
+  read_data_sensor();
 }
