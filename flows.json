@@ -8,6 +8,149 @@
         "env": []
     },
     {
+        "id": "59bf9e6525b6f2cf",
+        "type": "group",
+        "z": "b3992304f85322cf",
+        "name": "Dropdown-Switch",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "x": 714,
+        "y": 959,
+        "w": 772,
+        "h": 162
+    },
+    {
+        "id": "79d717f6a392753c",
+        "type": "group",
+        "z": "b3992304f85322cf",
+        "name": "Read Database",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "6cb6b8cfb591625f",
+            "8f4232d017ca1d73",
+            "4f9b667302ae0d88",
+            "f143e8c73b748afa",
+            "715d84402488f280"
+        ],
+        "x": 14,
+        "y": 1159,
+        "w": 932,
+        "h": 162
+    },
+    {
+        "id": "66d8cc5ddd3ca831",
+        "type": "group",
+        "z": "b3992304f85322cf",
+        "name": "Write Data",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "7a9b75e914d4e82f",
+            "2148927de84d6799",
+            "9af79870142d356d",
+            "35175cb02f24e675"
+        ],
+        "x": 14,
+        "y": 959,
+        "w": 672,
+        "h": 182
+    },
+    {
+        "id": "11b8082afbf74168",
+        "type": "group",
+        "z": "b3992304f85322cf",
+        "name": "Read Sensor",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "mqtt-in-node",
+            "json-node",
+            "function-node",
+            "1237c7792c8f8d16"
+        ],
+        "x": 14,
+        "y": 839,
+        "w": 812,
+        "h": 82
+    },
+    {
+        "id": "0b7813dc43286c3f",
+        "type": "group",
+        "z": "b3992304f85322cf",
+        "name": "Write Sensor",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "0ee19da4c3902947",
+            "1530eb2f79a77dac",
+            "1c733b0e383b780e",
+            "8f6ab52327b5f21e",
+            "3bffb007083a2dfe",
+            "ed2c81ca92b00c72"
+        ],
+        "x": 14,
+        "y": 539,
+        "w": 412,
+        "h": 282
+    },
+    {
+        "id": "8ddcf4d5dd59e428",
+        "type": "group",
+        "z": "b3992304f85322cf",
+        "name": "Switch Id Sensor",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "27a726779bf70d27",
+            "6b33b208c18dd35a",
+            "6291b48d2d581a8a",
+            "b66c0e337b07f7e6",
+            "e8f21cc282bb3b0b",
+            "b3a91f850dba6550"
+        ],
+        "x": 994,
+        "y": 1159,
+        "w": 832,
+        "h": 162
+    },
+    {
+        "id": "4dfa38dcbcd8952b",
+        "type": "group",
+        "z": "b3992304f85322cf",
+        "name": "Switch Interval",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "e1d391f38d54d929",
+            "966a9605db729fce",
+            "c9da7d680fd65d22",
+            "3e7bedd203ae0c88",
+            "91dc4f441501b339",
+            "0f0f0de480e1bfa0",
+            "c440da5f8beebe43"
+        ],
+        "x": 994,
+        "y": 1339,
+        "w": 832,
+        "h": 222
+    },
+    {
         "id": "64bdd599f9c61914",
         "type": "mqtt-broker",
         "name": "",
@@ -59,21 +202,13 @@
         "willPayload": ""
     },
     {
-        "id": "56fe067d.dd1478",
-        "type": "ui_tab",
-        "name": "Home",
-        "icon": "dashboard",
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "61cb93ff.8cf4a4",
         "type": "ui_group",
-        "name": "IoT MKR Prime Bundle Kit ",
-        "tab": "56fe067d.dd1478",
+        "name": "Date Picker",
+        "tab": "c9bb955efb200be4",
         "order": 1,
-        "disp": true,
-        "width": "18",
+        "disp": false,
+        "width": "30",
         "collapse": false,
         "className": ""
     },
@@ -185,108 +320,10 @@
         "charset": "UTF8"
     },
     {
-        "id": "dfee6ab0d6a08e2f",
-        "type": "ui_base",
-        "theme": {
-            "name": "theme-custom",
-            "lightTheme": {
-                "default": "#0094CE",
-                "baseColor": "#0094CE",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": true,
-                "reset": false
-            },
-            "darkTheme": {
-                "default": "#097479",
-                "baseColor": "#097479",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": false
-            },
-            "customTheme": {
-                "name": "Untitled Theme 1",
-                "default": "#4B7930",
-                "baseColor": "#e0f7fa",
-                "baseFont": "Tahoma,Geneva,sans-serif",
-                "reset": false
-            },
-            "themeState": {
-                "base-color": {
-                    "default": "#4B7930",
-                    "value": "#e0f7fa",
-                    "edited": true
-                },
-                "page-titlebar-backgroundColor": {
-                    "value": "#00796b",
-                    "edited": true
-                },
-                "page-backgroundColor": {
-                    "value": "#e0f7fa",
-                    "edited": true
-                },
-                "page-sidebar-backgroundColor": {
-                    "value": "#004d40",
-                    "edited": true
-                },
-                "group-textColor": {
-                    "value": "#fafafa",
-                    "edited": true
-                },
-                "group-borderColor": {
-                    "value": "#e0f7fa",
-                    "edited": true
-                },
-                "group-backgroundColor": {
-                    "value": "#e0f7fa",
-                    "edited": true
-                },
-                "widget-textColor": {
-                    "value": "#111111",
-                    "edited": false
-                },
-                "widget-backgroundColor": {
-                    "value": "#00796b",
-                    "edited": true
-                },
-                "widget-borderColor": {
-                    "value": "#e0f7fa",
-                    "edited": true
-                },
-                "base-font": {
-                    "value": "Tahoma,Geneva,sans-serif"
-                }
-            },
-            "angularTheme": {
-                "primary": "indigo",
-                "accents": "blue",
-                "warn": "red",
-                "background": "grey",
-                "palette": "light"
-            }
-        },
-        "site": {
-            "name": "SMART 2024",
-            "hideToolbar": "false",
-            "allowSwipe": "true",
-            "lockMenu": "true",
-            "allowTempTheme": "false",
-            "dateFormat": "DD/MM/YYYY",
-            "sizes": {
-                "sx": 40,
-                "sy": 40,
-                "gx": 6,
-                "gy": 6,
-                "cx": 6,
-                "cy": 6,
-                "px": 0,
-                "py": 0
-            }
-        }
-    },
-    {
         "id": "5bd2c1ed0cfe7a87",
         "type": "ui_group",
-        "name": "Siang",
-        "tab": "5651e8ce8dd897b0",
+        "name": "History Time",
+        "tab": "c9bb955efb200be4",
         "order": 1,
         "disp": false,
         "width": "18",
@@ -296,11 +333,11 @@
     {
         "id": "4be9e04c9c51f3fc",
         "type": "ui_group",
-        "name": "Browser",
-        "tab": "a10c81c5ff623c40",
+        "name": "Chart",
+        "tab": "cc409f22204b54fd",
         "order": 1,
         "disp": false,
-        "width": "6",
+        "width": 13,
         "collapse": false,
         "className": ""
     },
@@ -311,35 +348,15 @@
         "tab": "cc409f22204b54fd",
         "order": 1,
         "disp": false,
-        "width": 18,
+        "width": "18",
         "collapse": false,
         "className": ""
-    },
-    {
-        "id": "824976436fdc2068",
-        "type": "ui_group",
-        "name": "SettingPupuk",
-        "tab": "cca264a071a763cd",
-        "order": 1,
-        "disp": false,
-        "width": "12",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "a10c81c5ff623c40",
-        "type": "ui_tab",
-        "name": "Camera",
-        "icon": "fa-camera ",
-        "order": 4,
-        "disabled": false,
-        "hidden": false
     },
     {
         "id": "da033ba0d3cdcfd7",
         "type": "ui_group",
         "name": "View",
-        "tab": "a10c81c5ff623c40",
+        "tab": "",
         "order": 2,
         "disp": false,
         "width": "12",
@@ -347,29 +364,11 @@
         "className": ""
     },
     {
-        "id": "5651e8ce8dd897b0",
-        "type": "ui_tab",
-        "name": "Setting",
-        "icon": "fa-wrench ",
-        "order": 5,
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "cc409f22204b54fd",
         "type": "ui_tab",
         "name": "Home",
         "icon": "fa-home ",
         "order": 1,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "cca264a071a763cd",
-        "type": "ui_tab",
-        "name": "Pupuk",
-        "icon": "dashboard",
-        "order": 8,
         "disabled": false,
         "hidden": false
     },
@@ -384,19 +383,10 @@
         "charset": ""
     },
     {
-        "id": "49b5751fa3437b17",
-        "type": "ui_tab",
-        "name": "Data",
-        "icon": "fa-line-chart ",
-        "order": 2,
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "2edf52e4c2e84a2c",
         "type": "ui_group",
         "name": "Waktu",
-        "tab": "49b5751fa3437b17",
+        "tab": "",
         "order": 1,
         "disp": false,
         "width": "4",
@@ -407,7 +397,7 @@
         "id": "380cf67d39a9bb66",
         "type": "ui_group",
         "name": "Chart",
-        "tab": "49b5751fa3437b17",
+        "tab": "",
         "order": 2,
         "disp": false,
         "width": "12",
@@ -418,30 +408,12 @@
         "id": "56225b278f1df8be",
         "type": "ui_group",
         "name": "Sensor Values",
-        "tab": "2f0cb1b176c9074f",
+        "tab": "",
         "order": 2,
         "disp": true,
         "width": "6",
         "collapse": false,
         "className": ""
-    },
-    {
-        "id": "2f0cb1b176c9074f",
-        "type": "ui_tab",
-        "name": "Database",
-        "icon": "dashboard",
-        "order": 12,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "5d1c8f7333ab742e",
-        "type": "ui_tab",
-        "name": "Home",
-        "icon": "fa-home ",
-        "order": 3,
-        "disabled": false,
-        "hidden": false
     },
     {
         "id": "3c5b98af9c751fd2",
@@ -484,14 +456,213 @@
         "responsetimeout": "10000"
     },
     {
+        "id": "77befd9d740493b4",
+        "type": "ui_spacer",
+        "z": "b3992304f85322cf",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 1,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "84d8cc28fd1bb0f7",
+        "type": "ui_spacer",
+        "z": "b3992304f85322cf",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 3,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "498036615692362f",
+        "type": "ui_spacer",
+        "z": "b3992304f85322cf",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 5,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "604c2539aa7d170c",
+        "type": "ui_spacer",
+        "z": "b3992304f85322cf",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "f00c1801f38427b7",
+        "type": "ui_spacer",
+        "z": "b3992304f85322cf",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 7,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "4d05e6c7bc614290",
+        "type": "ui_spacer",
+        "z": "b3992304f85322cf",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "44b86a9c256d8d3d",
+        "type": "ui_spacer",
+        "z": "b3992304f85322cf",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 9,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "abb511a963a73520",
+        "type": "ui_spacer",
+        "z": "b3992304f85322cf",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 11,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "82d617777da1ea36",
+        "type": "ui_spacer",
+        "z": "b3992304f85322cf",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 12,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "cd6336327e33ba0c",
+        "type": "ui_spacer",
+        "z": "b3992304f85322cf",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 13,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "6e1df007a111cc7e",
+        "type": "ui_spacer",
+        "z": "b3992304f85322cf",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 14,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "bb6964e8fa9d63db",
+        "type": "ui_spacer",
+        "z": "b3992304f85322cf",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 15,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "83ff414311c024dc",
+        "type": "ui_spacer",
+        "z": "b3992304f85322cf",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 16,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "db825741d2acb1b2",
+        "type": "ui_spacer",
+        "z": "b3992304f85322cf",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 18,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "5dc47796ddd9758d",
+        "type": "ui_spacer",
+        "z": "b3992304f85322cf",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 19,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "bf227dd6b395306c",
+        "type": "ui_spacer",
+        "z": "b3992304f85322cf",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 20,
+        "width": 24,
+        "height": 1
+    },
+    {
+        "id": "9093cf647c87026c",
+        "type": "ui_spacer",
+        "z": "b3992304f85322cf",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 21,
+        "width": 24,
+        "height": 1
+    },
+    {
+        "id": "c9bb955efb200be4",
+        "type": "ui_tab",
+        "name": "Dasboard",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "72a129125d9b9435",
+        "type": "ui_spacer",
+        "z": "b3992304f85322cf",
+        "name": "spacer",
+        "group": "4be9e04c9c51f3fc",
+        "order": 2,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "d95b5e80a46bcfeb",
+        "type": "ui_spacer",
+        "z": "b3992304f85322cf",
+        "name": "spacer",
+        "group": "4be9e04c9c51f3fc",
+        "order": 5,
+        "width": 13,
+        "height": 1
+    },
+    {
         "id": "0ee19da4c3902947",
         "type": "ui_switch",
         "z": "b3992304f85322cf",
+        "g": "0b7813dc43286c3f",
         "name": "",
         "label": "switch",
         "tooltip": "",
-        "group": "61cb93ff.8cf4a4",
-        "order": 6,
+        "group": "ae91f222be969727",
+        "order": 4,
         "width": 0,
         "height": 0,
         "passthru": true,
@@ -509,8 +680,8 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 190,
-        "y": 500,
+        "x": 90,
+        "y": 620,
         "wires": [
             [
                 "1530eb2f79a77dac",
@@ -522,6 +693,7 @@
         "id": "1530eb2f79a77dac",
         "type": "mqtt out",
         "z": "b3992304f85322cf",
+        "g": "0b7813dc43286c3f",
         "name": "",
         "topic": "nodered/control",
         "qos": "",
@@ -532,74 +704,15 @@
         "correl": "",
         "expiry": "",
         "broker": "64bdd599f9c61914",
-        "x": 400,
-        "y": 500,
-        "wires": []
-    },
-    {
-        "id": "9394bf71bc65f8fe",
-        "type": "mqtt in",
-        "z": "b3992304f85322cf",
-        "name": "",
-        "topic": "nodered/output",
-        "qos": "2",
-        "datatype": "auto-detect",
-        "broker": "64bdd599f9c61914",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 200,
-        "y": 380,
-        "wires": [
-            [
-                "5c90ed0bf8d2d3b6",
-                "3092345b7bbabeef"
-            ]
-        ]
-    },
-    {
-        "id": "5c90ed0bf8d2d3b6",
-        "type": "ui_text",
-        "z": "b3992304f85322cf",
-        "group": "61cb93ff.8cf4a4",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "text",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#000000",
-        "x": 370,
-        "y": 380,
-        "wires": []
-    },
-    {
-        "id": "3092345b7bbabeef",
-        "type": "debug",
-        "z": "b3992304f85322cf",
-        "name": "debug 2",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 420,
-        "y": 300,
+        "x": 300,
+        "y": 620,
         "wires": []
     },
     {
         "id": "1c733b0e383b780e",
         "type": "debug",
         "z": "b3992304f85322cf",
+        "g": "0b7813dc43286c3f",
         "name": "debug 3",
         "active": true,
         "tosidebar": true,
@@ -608,19 +721,20 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 500,
-        "y": 440,
+        "x": 280,
+        "y": 580,
         "wires": []
     },
     {
         "id": "8f6ab52327b5f21e",
         "type": "ui_text_input",
         "z": "b3992304f85322cf",
+        "g": "0b7813dc43286c3f",
         "name": "",
         "label": "",
         "tooltip": "",
-        "group": "61cb93ff.8cf4a4",
-        "order": 2,
+        "group": "ae91f222be969727",
+        "order": 1,
         "width": 0,
         "height": 0,
         "passthru": true,
@@ -630,8 +744,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "msg",
-        "x": 200,
-        "y": 600,
+        "x": 100,
+        "y": 720,
         "wires": [
             [
                 "3bffb007083a2dfe",
@@ -643,6 +757,7 @@
         "id": "3bffb007083a2dfe",
         "type": "mqtt out",
         "z": "b3992304f85322cf",
+        "g": "0b7813dc43286c3f",
         "name": "",
         "topic": "nodered/input_text",
         "qos": "",
@@ -653,14 +768,15 @@
         "correl": "",
         "expiry": "",
         "broker": "64bdd599f9c61914",
-        "x": 410,
-        "y": 600,
+        "x": 310,
+        "y": 720,
         "wires": []
     },
     {
         "id": "ed2c81ca92b00c72",
         "type": "debug",
         "z": "b3992304f85322cf",
+        "g": "0b7813dc43286c3f",
         "name": "debug 4",
         "active": true,
         "tosidebar": true,
@@ -669,14 +785,15 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 380,
-        "y": 660,
+        "x": 300,
+        "y": 780,
         "wires": []
     },
     {
         "id": "mqtt-in-node",
         "type": "mqtt in",
         "z": "b3992304f85322cf",
+        "g": "11b8082afbf74168",
         "name": "Sensor Data",
         "topic": "sensor/data",
         "qos": "2",
@@ -685,8 +802,8 @@
         "nl": false,
         "rap": false,
         "inputs": 0,
-        "x": 230,
-        "y": 760,
+        "x": 110,
+        "y": 880,
         "wires": [
             [
                 "json-node"
@@ -697,12 +814,13 @@
         "id": "json-node",
         "type": "json",
         "z": "b3992304f85322cf",
+        "g": "11b8082afbf74168",
         "name": "Parse JSON",
         "property": "payload",
         "action": "",
         "pretty": false,
-        "x": 470,
-        "y": 760,
+        "x": 350,
+        "y": 880,
         "wires": [
             [
                 "function-node"
@@ -713,6 +831,7 @@
         "id": "function-node",
         "type": "function",
         "z": "b3992304f85322cf",
+        "g": "11b8082afbf74168",
         "name": "Set Global",
         "func": "// Retrieve previous values from global context\nvar previousTemp1 = global.get(\"temp1\") || null;\nvar previousHum1 = global.get(\"hum1\") || null;\n\nvar previousTemp2 = global.get(\"temp2\") || null;\nvar previousHum2 = global.get(\"hum2\") || null;\n\nvar previousTemp3 = global.get(\"temp3\") || null;\nvar previousHum3 = global.get(\"hum3\") || null;\n\n// Ensure the payload has at least 6 elements\nif (Array.isArray(msg.payload) && msg.payload.length >= 6) {\n    var sensor1_temp = msg.payload[0] !== undefined ? msg.payload[0] : previousTemp1;\n    var sensor1_hum = msg.payload[1] !== undefined ? msg.payload[1] : previousHum1;\n\n    var sensor2_temp = msg.payload[2] !== undefined ? msg.payload[2] : previousTemp2;\n    var sensor2_hum = msg.payload[3] !== undefined ? msg.payload[3] : previousHum2;\n\n    var sensor3_temp = msg.payload[4] !== undefined ? msg.payload[4] : previousTemp3;\n    var sensor3_hum = msg.payload[5] !== undefined ? msg.payload[5] : previousHum3;\n} else {\n    // If payload is not as expected, use previous values\n    var sensor1_temp = previousTemp1;\n    var sensor1_hum = previousHum1;\n\n    var sensor2_temp = previousTemp2;\n    var sensor2_hum = previousHum2;\n\n    var sensor3_temp = previousTemp3;\n    var sensor3_hum = previousHum3;\n}\n\n// Store variables in the global context\nglobal.set(\"temp1\", sensor1_temp);\nglobal.set(\"hum1\", sensor1_hum);\nglobal.set(\"temp2\", sensor2_temp);\nglobal.set(\"hum2\", sensor2_hum);\nglobal.set(\"temp3\", sensor3_temp);\nglobal.set(\"hum3\", sensor3_hum);\n\nmsg.payload = {\n    temp1: sensor1_temp,\n    hum1: sensor1_hum,\n    temp2: sensor2_temp,\n    hum2: sensor2_hum,\n    temp3: sensor3_temp,\n    hum3: sensor3_hum,\n};\n\nreturn msg;\n",
         "outputs": 1,
@@ -721,8 +840,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 670,
-        "y": 760,
+        "x": 550,
+        "y": 880,
         "wires": [
             [
                 "1237c7792c8f8d16"
@@ -733,8 +852,9 @@
         "id": "7a9b75e914d4e82f",
         "type": "function",
         "z": "b3992304f85322cf",
+        "g": "66d8cc5ddd3ca831",
         "name": "Write Data",
-        "func": "// Ambil global variables\nvar temp1 = global.get(\"temp1\");\nvar temp2 = global.get(\"temp2\");\nvar temp3 = global.get(\"temp3\");\n\nvar hum1 = global.get(\"hum1\");\nvar hum2 = global.get(\"hum2\");\nvar hum3 = global.get(\"hum3\");\n\n\n\n// SQL queries to insert sensor data into the table\nlet queries = [];\n\n// Insert for sensor 1\nqueries.push({\n    topic: `\n      INSERT INTO \\`Value\\` (sensor_id, val1, val2)\n      VALUES (?, ?, ?);\n    `,\n    payload: [1,  temp1, hum1 ]\n});\n\n// Insert for sensor 2\nqueries.push({\n  topic: `\n      INSERT INTO \\`Value\\` (sensor_id, val1, val2)\n      VALUES (?, ?, ?);\n    `,\n  payload: [2, temp2, hum2]\n});\n\n// Insert for sensor 3\nqueries.push({\n  topic: `\n      INSERT INTO \\`Value\\` (sensor_id, val1, val2)\n      VALUES (?, ?, ?);\n    `,\n  payload: [3, temp3, hum3]\n});\n\nreturn [queries];\n",
+        "func": "// Ambil global variables\nvar sensorData = [\n  { id: 1, temp: global.get(\"temp1\"), hum: global.get(\"hum1\") },\n  { id: 2, temp: global.get(\"temp2\"), hum: global.get(\"hum2\") },\n  { id: 3, temp: global.get(\"temp3\"), hum: global.get(\"hum3\") }\n  // Tambahkan data sensor tambahan di sini\n];\n\n// SQL queries to insert sensor data into the table\nlet queries = [];\n\n// Loop through the sensor data array and create queries\nsensorData.forEach(sensor => {\n  queries.push({\n    topic: `\n          INSERT INTO \\`Value\\` (sensor_id, val1, val2)\n          VALUES (?, ?, ?);\n        `,\n    payload: [sensor.id, sensor.temp, sensor.hum]\n  });\n});\n\nreturn [queries];\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -754,6 +874,7 @@
         "id": "2148927de84d6799",
         "type": "debug",
         "z": "b3992304f85322cf",
+        "g": "66d8cc5ddd3ca831",
         "name": "debug 5",
         "active": true,
         "tosidebar": true,
@@ -770,9 +891,10 @@
         "id": "9af79870142d356d",
         "type": "mysql",
         "z": "b3992304f85322cf",
+        "g": "66d8cc5ddd3ca831",
         "mydb": "03fa6e045770563b",
         "name": "Database",
-        "x": 600,
+        "x": 580,
         "y": 1000,
         "wires": [
             []
@@ -782,6 +904,7 @@
         "id": "35175cb02f24e675",
         "type": "inject",
         "z": "b3992304f85322cf",
+        "g": "66d8cc5ddd3ca831",
         "name": "",
         "props": [
             {
@@ -811,7 +934,919 @@
         "id": "1237c7792c8f8d16",
         "type": "debug",
         "z": "b3992304f85322cf",
+        "g": "11b8082afbf74168",
         "name": "debug 6",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "6cb6b8cfb591625f",
+        "type": "mysql",
+        "z": "b3992304f85322cf",
+        "g": "79d717f6a392753c",
+        "mydb": "03fa6e045770563b",
+        "name": "Database",
+        "x": 580,
+        "y": 1240,
+        "wires": [
+            [
+                "f143e8c73b748afa",
+                "715d84402488f280",
+                "3cb83efd9ad90a8e"
+            ]
+        ]
+    },
+    {
+        "id": "8f4232d017ca1d73",
+        "type": "function",
+        "z": "b3992304f85322cf",
+        "g": "79d717f6a392753c",
+        "name": "Read Sensor",
+        "func": "// Bangun query SQL\nmsg.topic = \"SELECT sensor_id, val1, val2, timestamp FROM Value ORDER BY timestamp DESC\";\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 1240,
+        "wires": [
+            [
+                "6cb6b8cfb591625f"
+            ]
+        ]
+    },
+    {
+        "id": "4f9b667302ae0d88",
+        "type": "inject",
+        "z": "b3992304f85322cf",
+        "g": "79d717f6a392753c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 1240,
+        "wires": [
+            [
+                "8f4232d017ca1d73"
+            ]
+        ]
+    },
+    {
+        "id": "f143e8c73b748afa",
+        "type": "function",
+        "z": "b3992304f85322cf",
+        "g": "79d717f6a392753c",
+        "name": "Payload To Database",
+        "func": "var resultArray=msg.payload;\n// Siapkan payload untuk chart\nmsg.payload = [\n    {\n        series: [\"Temperature\", \"Humidity\"],\n        data: [\n            resultArray.map(entry => ({ x: new Date(entry.time), y: entry.temperature })),\n            resultArray.map(entry => ({ x: new Date(entry.time), y: entry.humidity }))\n        ],\n        labels: resultArray.map(entry => new Date(entry.time))\n    }\n];\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 1200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "86481592b95f860b",
+        "type": "function",
+        "z": "b3992304f85322cf",
+        "name": "function 4",
+        "func": "\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1240,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6f2bbd1b2e256ac7",
+        "type": "ui_template",
+        "z": "b3992304f85322cf",
+        "group": "61cb93ff.8cf4a4",
+        "name": "Sensor Box",
+        "order": 10,
+        "width": 6,
+        "height": 3,
+        "format": "<div class=\"sensor-box\">\n    <a>Sensor Luar</a>\n    <div class=\"sensor-value\">\n        <span class=\"sensor-value-temp\">\n            <a> {{msg.payload.temperature}}</a><sup>°C</sup>\n        </span>\n        <span class=\"sensor-value-humid\">\n            <a>{{msg.payload.humidity}}</a><sup>%</sup>\n        </span>\n    </div>\n</div>\n\n<style>\n    .sensor-box {\n        font-size: 1.5rem;\n        font-weight: bold;\n        color: black;\n        height: 110px;\n        width: 250px;\n        background: linear-gradient(to top, #FF6666 5%, #FFFFFF 20%);\n        border-radius: 10px;\n        padding: 10px;\n        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n        text-align: left;\n    }\n\n    .sensor-value {\n        display: grid;\n        color: black;\n        justify-content: space-between;\n        grid-template-columns: 50% 50%;\n        align-items: center;\n    }\n\n    .sensor-value-temp {\n        font-size: 2rem;\n\n    }\n    .sensor-value-temp a{\n    font-size: 4rem;\n    font-weight: bold;\n    }\n\n    .sensor-value-humid {\n        font-size: 2rem;\n        text-align: right;\n    }\n    .sensor-value-humid a{\n\n    font-size: 4rem;\n    font-weight: bold;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1030,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "18e6cc36f54255bd",
+        "type": "ui_template",
+        "z": "b3992304f85322cf",
+        "group": "61cb93ff.8cf4a4",
+        "name": "Sensor Box",
+        "order": 2,
+        "width": 6,
+        "height": 3,
+        "format": "<div class=\"sensor-box\">\n    <a>Sensor Luar</a>\n    <div class=\"sensor-value\">\n        <span class=\"sensor-value-temp\">\n            <a> {{msg.payload.temperature}}</a><sup>°C</sup>\n        </span>\n        <span class=\"sensor-value-humid\">\n            <a>{{msg.payload.humidity}}</a><sup>%</sup>\n        </span>\n    </div>\n</div>\n\n<style>\n    .sensor-box {\n        font-size: 1.5rem;\n        font-weight: bold;\n        color: black;\n        height: 110px;\n        width: 250px;\n        background: linear-gradient(to top, #FF6666 5%, #FFFFFF 20%);\n        border-radius: 10px;\n        padding: 10px;\n        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n        text-align: left;\n    }\n\n    .sensor-value {\n        display: grid;\n        color: black;\n        justify-content: space-between;\n        grid-template-columns: 50% 50%;\n        align-items: center;\n    }\n\n    .sensor-value-temp {\n        font-size: 2rem;\n\n    }\n    .sensor-value-temp a{\n    font-size: 4rem;\n    font-weight: bold;\n    }\n\n    .sensor-value-humid {\n        font-size: 2rem;\n        text-align: right;\n    }\n    .sensor-value-humid a{\n\n    font-size: 4rem;\n    font-weight: bold;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1030,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2382734811461a38",
+        "type": "ui_template",
+        "z": "b3992304f85322cf",
+        "group": "61cb93ff.8cf4a4",
+        "name": "Sensor Box",
+        "order": 17,
+        "width": 6,
+        "height": 3,
+        "format": "<div class=\"sensor-box\">\n    <a>Sensor Luar</a>\n    <div class=\"sensor-value\">\n        <span class=\"sensor-value-temp\">\n            <a> {{msg.payload.temperature}}</a><sup>°C</sup>\n        </span>\n        <span class=\"sensor-value-humid\">\n            <a>{{msg.payload.humidity}}</a><sup>%</sup>\n        </span>\n    </div>\n</div>\n\n<style>\n    .sensor-box {\n        font-size: 1.5rem;\n        font-weight: bold;\n        color: black;\n        height: 110px;\n        width: 250px;\n        background: linear-gradient(to top, #FF6666 5%, #FFFFFF 20%);\n        border-radius: 10px;\n        padding: 10px;\n        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n        text-align: left;\n    }\n\n    .sensor-value {\n        display: grid;\n        color: black;\n        justify-content: space-between;\n        grid-template-columns: 50% 50%;\n        align-items: center;\n    }\n\n    .sensor-value-temp {\n        font-size: 2rem;\n\n    }\n    .sensor-value-temp a{\n    font-size: 4rem;\n    font-weight: bold;\n    }\n\n    .sensor-value-humid {\n        font-size: 2rem;\n        text-align: right;\n    }\n    .sensor-value-humid a{\n\n    font-size: 4rem;\n    font-weight: bold;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1030,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f15bc6b0deb2416f",
+        "type": "debug",
+        "z": "b3992304f85322cf",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1220,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "715d84402488f280",
+        "type": "function",
+        "z": "b3992304f85322cf",
+        "g": "79d717f6a392753c",
+        "name": "Filter Database",
+        "func": "var data = msg.payload;\n// Filter data untuk sensor_id 1\nvar filteredData = data.filter(item => item.sensor_id === 1);\n\n// Ekstrak data untuk chart\nvar timestamp = filteredData.map(item => new Date(item.timestamp));\nvar temp = filteredData.map(item => item.val1);\nvar humid = filteredData.map(item => item.val2);\n\nmsg.payload = {\n    temperature: temp,\n    humidity: humid,\n    timestamp: timestamp,\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 1280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fd50b8556cc30546",
+        "type": "ui_template",
+        "z": "b3992304f85322cf",
+        "group": "ae91f222be969727",
+        "name": "",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "format": "<a> {{msg.payload.temperature}}</a>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1080,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bca87ced8ee83d48",
+        "type": "ui_template",
+        "z": "b3992304f85322cf",
+        "group": "61cb93ff.8cf4a4",
+        "name": "Chart Box",
+        "order": 4,
+        "width": 14,
+        "height": 7,
+        "format": "<div class=\"chart-box\">\n  <a>Statistic</a>\n  <div class=\"chart-box-chart\">\n    <canvas id=\"myChart\" width=\"200\" height=\"100\"></canvas>\n    <script>\n      (function(scope) {\n        var myChart;\n\n        // Inisialisasi chart hanya sekali\n        var ctx = document.getElementById('myChart').getContext('2d');\n        myChart = new Chart(ctx, {\n          type: 'line',\n          data: {\n            labels: [], // Inisialisasi dengan array kosong\n            datasets: [\n              {\n                label: 'Temperature',\n                data: [],\n                borderColor: 'rgba(255, 99, 132, 1)',\n                backgroundColor: 'rgba(255, 99, 132, 0.2)',\n                borderWidth: 1\n              },\n              {\n                label: 'Humidity',\n                data: [],\n                borderColor: 'rgba(54, 162, 235, 1)',\n                backgroundColor: 'rgba(54, 162, 235, 0.2)',\n                borderWidth: 1\n              }\n            ]\n          },\n          options: {\n            scales: {\n              x: {\n                reverse: true // Membalikkan sumbu x\n              },\n              y: {\n                beginAtZero: true\n              }\n            },\n            plugins: {\n              legend: {\n                display: true,\n                labels: {\n                  color: 'black' // Warna teks legend\n                }\n              }\n            }\n          }\n        });\n\n        // Watch untuk memantau perubahan data di msg.payload\n        scope.$watch('msg.payload', function(data) {\n          if (data) {\n            // Ambil data array dari msg.payload\n            var temperatures = data.temperature || [];\n            var humidities = data.humidity || [];\n            var timestamps = data.timestamp || [];\n\n            // Konversi timestamps menjadi hanya waktu (jam:menit:detik)\n            var timeLabels = timestamps.map(function(ts) {\n              var dateObj = new Date(ts); // Konversi timestamp ke Date object\n              return dateObj.toLocaleTimeString('en-US', { hour12: false }); // Hanya ambil waktu\n            });\n\n            // Update data chart dengan data baru\n            myChart.data.labels = timeLabels; // Gunakan hanya waktu untuk label\n            myChart.data.datasets[0].data = temperatures;\n            myChart.data.datasets[1].data = humidities;\n\n            // Refresh chart untuk menampilkan data yang baru\n            myChart.update();\n          }\n        });\n      })(scope);\n    </script>\n  </div>\n</div>\n\n<style>\n  .chart-box {\n    font-size: 1.5rem;\n    font-weight: bold;\n    color: black;\n    height: 350px;\n    width: 600px;\n    border-radius: 10px;\n    padding: 10px;\n    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n    text-align: left;\n  }\n\n  .chart-box-chart {\n    margin-top: 5%;\n    width: 600px;\n    align-items: center;\n  }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 720,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1",
+        "type": "ui_dropdown",
+        "z": "b3992304f85322cf",
+        "d": true,
+        "g": "59bf9e6525b6f2cf",
+        "name": "",
+        "label": "Pilih Sensor",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "4be9e04c9c51f3fc",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Sensor 1",
+                "value": "sensor1",
+                "type": "str"
+            },
+            {
+                "label": "Sensor 2",
+                "value": "sensor2",
+                "type": "str"
+            },
+            {
+                "label": "Sensor 3",
+                "value": "sensor3",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "",
+        "topicType": "str",
+        "className": "",
+        "x": 810,
+        "y": 1040,
+        "wires": [
+            [
+                "2"
+            ]
+        ]
+    },
+    {
+        "id": "2",
+        "type": "switch",
+        "z": "b3992304f85322cf",
+        "d": true,
+        "g": "59bf9e6525b6f2cf",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "sensor1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "sensor2",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "sensor3",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 1010,
+        "y": 1040,
+        "wires": [
+            [
+                "3"
+            ],
+            [
+                "4"
+            ],
+            [
+                "5"
+            ]
+        ]
+    },
+    {
+        "id": "3",
+        "type": "function",
+        "z": "b3992304f85322cf",
+        "d": true,
+        "g": "59bf9e6525b6f2cf",
+        "name": "Sensor 1",
+        "func": "msg.payload = \"Data dari Sensor 1\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1210,
+        "y": 1000,
+        "wires": [
+            [
+                "6"
+            ]
+        ]
+    },
+    {
+        "id": "4",
+        "type": "function",
+        "z": "b3992304f85322cf",
+        "d": true,
+        "g": "59bf9e6525b6f2cf",
+        "name": "Sensor 2",
+        "func": "msg.payload = \"Data dari Sensor 2\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1210,
+        "y": 1040,
+        "wires": [
+            [
+                "6"
+            ]
+        ]
+    },
+    {
+        "id": "5",
+        "type": "function",
+        "z": "b3992304f85322cf",
+        "d": true,
+        "g": "59bf9e6525b6f2cf",
+        "name": "Sensor 3",
+        "func": "msg.payload = \"Data dari Sensor 3\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1210,
+        "y": 1080,
+        "wires": [
+            [
+                "6"
+            ]
+        ]
+    },
+    {
+        "id": "6",
+        "type": "ui_text",
+        "z": "b3992304f85322cf",
+        "d": true,
+        "g": "59bf9e6525b6f2cf",
+        "group": "ae91f222be969727",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Output",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 1410,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "0edc47c661e5814b",
+        "type": "ui_date_picker",
+        "z": "b3992304f85322cf",
+        "name": "",
+        "label": "Date",
+        "group": "61cb93ff.8cf4a4",
+        "order": 0,
+        "width": "4",
+        "height": "4",
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 1010,
+        "y": 420,
+        "wires": [
+            [
+                "f15bc6b0deb2416f"
+            ]
+        ]
+    },
+    {
+        "id": "aee03609dd2370fc",
+        "type": "ui_form",
+        "z": "b3992304f85322cf",
+        "name": "",
+        "label": "",
+        "group": "5bd2c1ed0cfe7a87",
+        "order": 0,
+        "width": "4",
+        "height": "2",
+        "options": [
+            {
+                "label": "Initial Time",
+                "value": "initial_time",
+                "type": "time",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "End Time",
+                "value": "end_time",
+                "type": "time",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "initial_time": "",
+            "end_time": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 1010,
+        "y": 460,
+        "wires": [
+            [
+                "f15bc6b0deb2416f"
+            ]
+        ]
+    },
+    {
+        "id": "27a726779bf70d27",
+        "type": "ui_dropdown",
+        "z": "b3992304f85322cf",
+        "g": "8ddcf4d5dd59e428",
+        "name": "",
+        "label": "",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "4be9e04c9c51f3fc",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Sensor 1",
+                "value": "sensor1",
+                "type": "str"
+            },
+            {
+                "label": "Sensor 2",
+                "value": "sensor2",
+                "type": "str"
+            },
+            {
+                "label": "Sensor 3",
+                "value": "sensor3",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "",
+        "topicType": "str",
+        "className": "",
+        "x": 1080,
+        "y": 1240,
+        "wires": [
+            [
+                "6b33b208c18dd35a"
+            ]
+        ]
+    },
+    {
+        "id": "6b33b208c18dd35a",
+        "type": "switch",
+        "z": "b3992304f85322cf",
+        "g": "8ddcf4d5dd59e428",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "sensor1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "sensor2",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "sensor3",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 1290,
+        "y": 1240,
+        "wires": [
+            [
+                "6291b48d2d581a8a"
+            ],
+            [
+                "b66c0e337b07f7e6"
+            ],
+            [
+                "e8f21cc282bb3b0b"
+            ]
+        ]
+    },
+    {
+        "id": "6291b48d2d581a8a",
+        "type": "function",
+        "z": "b3992304f85322cf",
+        "g": "8ddcf4d5dd59e428",
+        "name": "Sensor 1",
+        "func": "// Ambil data dari msg.payload\nvar select = 1;\n\n// Simpan data ke variabel global\nglobal.set(\"id_selected\", select);\n\nmsg.payload = {\n    id_selected:select,\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1490,
+        "y": 1200,
+        "wires": [
+            [
+                "b3a91f850dba6550"
+            ]
+        ]
+    },
+    {
+        "id": "b66c0e337b07f7e6",
+        "type": "function",
+        "z": "b3992304f85322cf",
+        "g": "8ddcf4d5dd59e428",
+        "name": "Sensor 2",
+        "func": "// Ambil data dari msg.payload\nvar select = 2;\n\n// Simpan data ke variabel global\nglobal.set(\"id_selected\", select);\n\nmsg.payload = {\n    id:select,\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1490,
+        "y": 1240,
+        "wires": [
+            [
+                "b3a91f850dba6550"
+            ]
+        ]
+    },
+    {
+        "id": "e8f21cc282bb3b0b",
+        "type": "function",
+        "z": "b3992304f85322cf",
+        "g": "8ddcf4d5dd59e428",
+        "name": "Sensor 3",
+        "func": "// Ambil data dari msg.payload\nvar select = 3;\n\n// Simpan data ke variabel global\nglobal.set(\"id_selected\", select);\n\nmsg.payload = {\n    id:select,\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1490,
+        "y": 1280,
+        "wires": [
+            [
+                "b3a91f850dba6550"
+            ]
+        ]
+    },
+    {
+        "id": "b3a91f850dba6550",
+        "type": "debug",
+        "z": "b3992304f85322cf",
+        "g": "8ddcf4d5dd59e428",
+        "name": "Payload Switch",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1700,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "e1d391f38d54d929",
+        "type": "ui_dropdown",
+        "z": "b3992304f85322cf",
+        "g": "4dfa38dcbcd8952b",
+        "name": "",
+        "label": "",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "4be9e04c9c51f3fc",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "/Day",
+                "value": "1D",
+                "type": "str"
+            },
+            {
+                "label": "/Week",
+                "value": "1W",
+                "type": "str"
+            },
+            {
+                "label": "/Month",
+                "value": "1M",
+                "type": "str"
+            },
+            {
+                "label": "/Year",
+                "value": "1Y",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "",
+        "topicType": "str",
+        "className": "",
+        "x": 1080,
+        "y": 1420,
+        "wires": [
+            [
+                "966a9605db729fce"
+            ]
+        ]
+    },
+    {
+        "id": "966a9605db729fce",
+        "type": "switch",
+        "z": "b3992304f85322cf",
+        "g": "4dfa38dcbcd8952b",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1D",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "1W",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "1M",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "1Y",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 1290,
+        "y": 1420,
+        "wires": [
+            [
+                "c9da7d680fd65d22"
+            ],
+            [
+                "3e7bedd203ae0c88"
+            ],
+            [
+                "91dc4f441501b339"
+            ],
+            [
+                "c440da5f8beebe43"
+            ]
+        ]
+    },
+    {
+        "id": "c9da7d680fd65d22",
+        "type": "function",
+        "z": "b3992304f85322cf",
+        "g": "4dfa38dcbcd8952b",
+        "name": "1 Day",
+        "func": "// Ambil data dari msg.payload\nvar select = \"1day\";\n\n// Simpan data ke variabel global\nglobal.set(\"interval_selected\", select);\n\nmsg.payload = {\n    set_interval:select,\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1480,
+        "y": 1380,
+        "wires": [
+            [
+                "0f0f0de480e1bfa0"
+            ]
+        ]
+    },
+    {
+        "id": "3e7bedd203ae0c88",
+        "type": "function",
+        "z": "b3992304f85322cf",
+        "g": "4dfa38dcbcd8952b",
+        "name": "1 Week",
+        "func": "// Ambil data dari msg.payload\nvar select = \"1week\";\n\n// Simpan data ke variabel global\nglobal.set(\"interval_selected\", select);\n\nmsg.payload = {\n    set_interval:select,\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1490,
+        "y": 1420,
+        "wires": [
+            [
+                "0f0f0de480e1bfa0"
+            ]
+        ]
+    },
+    {
+        "id": "91dc4f441501b339",
+        "type": "function",
+        "z": "b3992304f85322cf",
+        "g": "4dfa38dcbcd8952b",
+        "name": "1 Month",
+        "func": "// Ambil data dari msg.payload\nvar select = \"1month\";\n\n// Simpan data ke variabel global\nglobal.set(\"interval_selected\", select);\n\nmsg.payload = {\n    set_interval:select,\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1490,
+        "y": 1460,
+        "wires": [
+            [
+                "0f0f0de480e1bfa0"
+            ]
+        ]
+    },
+    {
+        "id": "0f0f0de480e1bfa0",
+        "type": "debug",
+        "z": "b3992304f85322cf",
+        "g": "4dfa38dcbcd8952b",
+        "name": "Payload Switch",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1700,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "c440da5f8beebe43",
+        "type": "function",
+        "z": "b3992304f85322cf",
+        "g": "4dfa38dcbcd8952b",
+        "name": "1 Year",
+        "func": "// Ambil data dari msg.payload\nvar select = \"1year\";\n\n// Simpan data ke variabel global\nglobal.set(\"interval_selected\", select);\n\nmsg.payload = {\n    set_interval:select,\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1490,
+        "y": 1520,
+        "wires": [
+            [
+                "0f0f0de480e1bfa0"
+            ]
+        ]
+    },
+    {
+        "id": "3cb83efd9ad90a8e",
+        "type": "function",
+        "z": "b3992304f85322cf",
+        "name": "Filtering",
+        "func": "// Ambil data dari variabel global\nvar id_selected = global.get(\"id_selected\");\nvar interval_selected = global.get(\"interval_selected\");\n\nvar data = msg.payload;\n\n// Filter data untuk sensor_id\nvar filteredData = data.filter(item => item.sensor_id === id_selected);\n\n// Mendapatkan tanggal dan waktu saat ini\nvar now = new Date();\n\n// Fungsi untuk menghitung rata-rata suhu dan kelembapan per jam\nfunction aggregateHourlyData(data) {\n    var groupedData = Array(24).fill().map(() => ({ sumTemp: 0, sumHumid: 0, count: 0 }));\n    \n    // Mendapatkan batas waktu untuk filter data\n    var startDate = new Date(now.getTime() - 24 * 60 * 60 * 1000); // 24 jam terakhir\n\n    // Filter data berdasarkan tanggal\n    data = data.filter(item => new Date(item.timestamp) >= startDate);\n\n    // Kelompokkan data per jam\n    data.forEach(item => {\n        var date = new Date(item.timestamp);\n        var hour = date.getHours();\n        \n        // Kelompokkan data berdasarkan jam\n        if (date >= startDate) {\n            groupedData[hour].sumTemp += item.val1;\n            groupedData[hour].sumHumid += item.val2;\n            groupedData[hour].count += 1;\n        }\n    });\n\n    // Hitung rata-rata per jam\n    var result = groupedData.map(hourData => ({\n        avgTemp: hourData.count ? (hourData.sumTemp / hourData.count) : 0,\n        avgHumid: hourData.count ? (hourData.sumHumid / hourData.count) : 0\n    }));\n    \n    return result;\n}\n\n\n// Fungsi untuk menghitung rata-rata suhu dan kelembapan per seperempat hari\nfunction aggregateQuarterlyData(data) {\n    var groupedData = Array(28).fill().map(() => ({ sumTemp: 0, sumHumid: 0, count: 0 }));\n    \n    // Mendapatkan batas waktu untuk filter data\n    var startDate = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000); // 7 hari terakhir\n\n    // Filter data berdasarkan tanggal\n    data = data.filter(item => new Date(item.timestamp) >= startDate);\n\n    // Kelompokkan data per seperempat hari\n    data.forEach(item => {\n        var date = new Date(item.timestamp);\n        var dayIndex = Math.floor((date.getTime() - startDate.getTime()) / (24 * 60 * 60 * 1000)); // Hitung hari ke-i\n        var quarterIndex = Math.floor(date.getHours() / 6); // Hitung seperempat hari (0-3)\n        var index = dayIndex * 4 + quarterIndex; // Hitung index untuk grup\n        \n        if (index >= 0 && index < groupedData.length) {\n            groupedData[index].sumTemp += item.val1;\n            groupedData[index].sumHumid += item.val2;\n            groupedData[index].count += 1;\n        }\n    });\n\n    // Hitung rata-rata per seperempat hari\n    var result = groupedData.map(quarterData => ({\n        avgTemp: quarterData.count ? (quarterData.sumTemp / quarterData.count) : 0,\n        avgHumid: quarterData.count ? (quarterData.sumHumid / quarterData.count) : 0\n    }));\n    \n    return result;\n}\n\n\n// Proses data dengan interval 1 hari\nif (interval_selected === '1day') {\n    msg.payload = aggregateHourlyData(filteredData);\n} else if (interval_selected === '1week') {\n    msg.payload = aggregateQuarterlyData(filteredData); \n}else {\n    msg.payload = filteredData; // Jika bukan interval 'day', tidak melakukan perubahan\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 1460,
+        "wires": [
+            [
+                "a1a8b5f6288ebc60"
+            ]
+        ]
+    },
+    {
+        "id": "a1a8b5f6288ebc60",
+        "type": "function",
+        "z": "b3992304f85322cf",
+        "name": "function 5",
+        "func": "var value = msg.payload;\nvar interval_selected = global.get(\"interval_selected\");\n\n// Mendapatkan waktu saat ini\nvar now = new Date();\n\n// Inisialisasi array dengan ukuran 24 elemen\nvar resultArray = [];\nvar startDate;\nvar intervalHours = 1;\n\n// Menentukan batas waktu dan ukuran array berdasarkan interval\nif (interval_selected === '1day') {\n    // Untuk interval 1 hari, buat array dengan 24 elemen (satu untuk setiap jam)\n    startDate = new Date(now.getTime() - 24 * 60 * 60 * 1000); // 24 jam terakhir\n\n    // Mengisi array dengan waktu dari 24 jam terakhir hingga waktu saat ini\n    for (var i = 0; i < 24; i++) {\n        var timeLabel = new Date(startDate.getTime() + i * 60 * 60 * 1000);\n        resultArray.push({\n            time: timeLabel.toISOString(), // Format waktu ISO\n        });\n    }\n}\n\n// Mengembalikan data dalam bentuk objek payload\nmsg.payload = {\n    y: value,\n    x: resultArray,\n    interval_selected: interval_selected\n};\n\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 1560,
+        "wires": [
+            [
+                "a6528462bc5d7d8d"
+            ]
+        ]
+    },
+    {
+        "id": "0eb670e639a15b64",
+        "type": "debug",
+        "z": "b3992304f85322cf",
+        "name": "debug 8",
         "active": true,
         "tosidebar": true,
         "console": false,
@@ -819,8 +1854,67 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 780,
-        "y": 700,
+        "x": 500,
+        "y": 1180,
         "wires": []
+    },
+    {
+        "id": "84449f5ba4326cdd",
+        "type": "debug",
+        "z": "b3992304f85322cf",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "a6528462bc5d7d8d",
+        "type": "function",
+        "z": "b3992304f85322cf",
+        "name": "Payload To Database",
+        "func": "msg.payload;\nmsg.payload =\n    {\n        series: [\"Temperature\", \"Humidity\"],\n        data: [\n            msg.payload.y.map(entry => ({y: entry.avgTemp })),\n            msg.payload.y.map(entry => ({ y: entry.avgHumid }))\n        ],\n        labels: msg.payload.x.map(entry => new Date(entry.time))\n    };\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 1580,
+        "wires": [
+            [
+                "84449f5ba4326cdd",
+                "59a31997eca78017"
+            ]
+        ]
+    },
+    {
+        "id": "59a31997eca78017",
+        "type": "ui_template",
+        "z": "b3992304f85322cf",
+        "group": "4be9e04c9c51f3fc",
+        "name": "",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "format": "<div class=\"chart-box\">\n  <a>Statistic</a>\n  <div class=\"chart-box-chart\">\n    <canvas id=\"myChart\" width=\"200\" height=\"100\"></canvas>\n    <script>\n      (function(scope) {\n                var myChart;\n\n                // Inisialisasi chart hanya sekali\n                var ctx = document.getElementById('myChart').getContext('2d');\n                myChart = new Chart(ctx, {\n                    type: 'line',\n                    data: {\n                        labels: [], // Inisialisasi dengan array kosong\n                        datasets: [\n                            {\n                                label: 'Temperature',\n                                data: [],\n                                borderColor: 'rgba(255, 99, 132, 1)',\n                                backgroundColor: 'rgba(255, 99, 132, 0.2)',\n                                borderWidth: 1\n                            },\n                            {\n                                label: 'Humidity',\n                                data: [],\n                                borderColor: 'rgba(54, 162, 235, 1)',\n                                backgroundColor: 'rgba(54, 162, 235, 0.2)',\n                                borderWidth: 1\n                            }\n                        ]\n                    },\n                    options: {\n                        scales: {\n                            x: {\n                                reverse: false // Membalikkan sumbu x\n                            },\n                            y: {\n                                beginAtZero: true\n                            }\n                        },\n                        plugins: {\n                            legend: {\n                                display: true,\n                                labels: {\n                                    color: 'black' // Warna teks legend\n                                }\n                            }\n                        }\n                    }\n                });\n\n                // Watch untuk memantau perubahan data di msg.payload\n                scope.$watch('msg.payload', function(data) {\n                    if (data) {\n                        // Ambil data array dari msg.payload\n                        var temperatures = data.data[0].map(entry => entry.y); // Data temperature\n                        var humidities = data.data[1].map(entry => entry.y); // Data humidity\n                        var timestamps = data.labels; // Labels untuk waktu\n                        // timestamps.reverse();\n                        var firstElement = timestamps.shift();\n                        \n                        // Tambahkan elemen pertama tersebut menjadi elemen terakhir\n                        timestamps.push(firstElement);\n                    \n                        timestamps.shift();\n            \n            \n                        \n            \n\n                        // Konversi timestamps menjadi format waktu\n                        var timeLabels = timestamps.map(function(ts) {\n                            var dateObj = new Date(ts); // Konversi timestamp ke Date object\n                            return dateObj.toLocaleTimeString('en-US', { hour12: false }); // Hanya ambil waktu\n                        });\n\n                        // Update data chart dengan data baru\n                        myChart.data.labels = timeLabels; // Gunakan waktu sebagai label\n                        myChart.data.datasets[0].data = temperatures; // Data untuk temperature\n                        myChart.data.datasets[1].data = humidities; // Data untuk humidity\n\n                        // Refresh chart untuk menampilkan data yang baru\n                        myChart.update();\n                    }\n                });\n            })(scope);\n    </script>\n  </div>\n</div>\n\n<style>\n  .chart-box {\n    font-size: 1.5rem;\n    font-weight: bold;\n    color: black;\n    height: 350px;\n    width: 600px;\n    border-radius: 10px;\n    padding: 10px;\n    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n    text-align: left;\n  }\n\n  .chart-box-chart {\n    margin-top: 5%;\n    width: 600px;\n    align-items: center;\n  }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1240,
+        "y": 1680,
+        "wires": [
+            []
+        ]
     }
 ]
