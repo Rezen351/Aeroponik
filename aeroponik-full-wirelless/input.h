@@ -29,8 +29,8 @@ void cek_serial(){
 
 void read_data_sensor(){
   // Dummy sensor
-  int val_1 = random(10,30);
-  int val_2 = random(60,100);
+  // int val_1 = random(10,30);
+  // int val_2 = random(60,100);
 
   int val1_1 = random(10,30);
   int val1_2 = random(60,100);
