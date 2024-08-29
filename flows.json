@@ -1,6 +1,6 @@
 [
     {
-        "id": "b3992304f85322cf",
+        "id": "ff1940bf5cf0e080",
         "type": "tab",
         "label": "Flow 1",
         "disabled": false,
@@ -8,20 +8,20 @@
         "env": []
     },
     {
-        "id": "59bf9e6525b6f2cf",
+        "id": "3632a2ad0670fc82",
         "type": "group",
-        "z": "b3992304f85322cf",
+        "z": "ff1940bf5cf0e080",
         "name": "Dropdown-Switch",
         "style": {
             "label": true
         },
         "nodes": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6"
+            "a2245ae2e5289d48",
+            "4525abda07ddf182",
+            "3134d57b317c8dd9",
+            "82dee572da7ccb11",
+            "042311d6379c14ab",
+            "eb6d81b63aa5b0d8"
         ],
         "x": 714,
         "y": 959,
@@ -29,19 +29,19 @@
         "h": 162
     },
     {
-        "id": "79d717f6a392753c",
+        "id": "f5d6ee0cd0dadc87",
         "type": "group",
-        "z": "b3992304f85322cf",
+        "z": "ff1940bf5cf0e080",
         "name": "Read Database",
         "style": {
             "label": true
         },
         "nodes": [
-            "6cb6b8cfb591625f",
-            "8f4232d017ca1d73",
-            "4f9b667302ae0d88",
-            "f143e8c73b748afa",
-            "715d84402488f280"
+            "867fe58c438a9073",
+            "69126def83cf3b28",
+            "0cb43b758462327f",
+            "43d82863506ef992",
+            "a3d6127a0a5f88ee"
         ],
         "x": 14,
         "y": 1159,
@@ -49,18 +49,18 @@
         "h": 162
     },
     {
-        "id": "66d8cc5ddd3ca831",
+        "id": "900eb541bb33648e",
         "type": "group",
-        "z": "b3992304f85322cf",
+        "z": "ff1940bf5cf0e080",
         "name": "Write Data",
         "style": {
             "label": true
         },
         "nodes": [
-            "7a9b75e914d4e82f",
-            "2148927de84d6799",
-            "9af79870142d356d",
-            "35175cb02f24e675"
+            "4f4c5d94ca7a5192",
+            "2e51d5f9d29e6a92",
+            "4197a338b3b6b67e",
+            "f0e8f59cc81b9b95"
         ],
         "x": 14,
         "y": 959,
@@ -68,39 +68,39 @@
         "h": 182
     },
     {
-        "id": "11b8082afbf74168",
+        "id": "e91e162995eed73b",
         "type": "group",
-        "z": "b3992304f85322cf",
+        "z": "ff1940bf5cf0e080",
         "name": "Read Sensor",
         "style": {
             "label": true
         },
         "nodes": [
-            "mqtt-in-node",
-            "json-node",
-            "function-node",
-            "1237c7792c8f8d16"
+            "93f011ff81865ca4",
+            "7f3c3131f6f75527",
+            "94a3faeb1750f8e0",
+            "192f4cbc221573c7"
         ],
         "x": 14,
-        "y": 839,
-        "w": 812,
-        "h": 82
+        "y": 799,
+        "w": 852,
+        "h": 122
     },
     {
-        "id": "0b7813dc43286c3f",
+        "id": "2f917d64d1105ccb",
         "type": "group",
-        "z": "b3992304f85322cf",
+        "z": "ff1940bf5cf0e080",
         "name": "Write Sensor",
         "style": {
             "label": true
         },
         "nodes": [
-            "0ee19da4c3902947",
-            "1530eb2f79a77dac",
-            "1c733b0e383b780e",
-            "8f6ab52327b5f21e",
-            "3bffb007083a2dfe",
-            "ed2c81ca92b00c72"
+            "2d13c4bdab20d1c3",
+            "15747c351378e773",
+            "d717dcfaa6cfdd77",
+            "a0c7b39a09dc34b2",
+            "0c13efd6ca60b393",
+            "cbc57d89f4101b82"
         ],
         "x": 14,
         "y": 539,
@@ -108,20 +108,20 @@
         "h": 282
     },
     {
-        "id": "8ddcf4d5dd59e428",
+        "id": "0f45a4344fa9be34",
         "type": "group",
-        "z": "b3992304f85322cf",
+        "z": "ff1940bf5cf0e080",
         "name": "Switch Id Sensor",
         "style": {
             "label": true
         },
         "nodes": [
-            "27a726779bf70d27",
-            "6b33b208c18dd35a",
-            "6291b48d2d581a8a",
-            "b66c0e337b07f7e6",
-            "e8f21cc282bb3b0b",
-            "b3a91f850dba6550"
+            "f1cab4165c0121e6",
+            "9db3e0383ec1488a",
+            "7b545d9df3c853c3",
+            "0993ed0aca060689",
+            "fee6636da1d680ca",
+            "6c4da7c51abdea24"
         ],
         "x": 994,
         "y": 1159,
@@ -129,21 +129,21 @@
         "h": 162
     },
     {
-        "id": "4dfa38dcbcd8952b",
+        "id": "d75e394c65d1b31f",
         "type": "group",
-        "z": "b3992304f85322cf",
+        "z": "ff1940bf5cf0e080",
         "name": "Switch Interval",
         "style": {
             "label": true
         },
         "nodes": [
-            "e1d391f38d54d929",
-            "966a9605db729fce",
-            "c9da7d680fd65d22",
-            "3e7bedd203ae0c88",
-            "91dc4f441501b339",
-            "0f0f0de480e1bfa0",
-            "c440da5f8beebe43"
+            "0d3234d4d05b90e3",
+            "59d286f0e1f70f4a",
+            "7599ad74c11720de",
+            "238434c5872606d3",
+            "19a5462f2eaaf758",
+            "ded868b93d7b5aa1",
+            "b031c63868ae1c57"
         ],
         "x": 994,
         "y": 1339,
@@ -151,520 +151,128 @@
         "h": 222
     },
     {
-        "id": "64bdd599f9c61914",
-        "type": "mqtt-broker",
-        "name": "",
-        "broker": "broker.mqtt-dashboard.com",
-        "port": "1883",
-        "clientid": "",
-        "autoConnect": true,
-        "usetls": false,
-        "protocolVersion": "4",
-        "keepalive": "60",
-        "cleansession": true,
-        "autoUnsubscribe": true,
-        "birthTopic": "",
-        "birthQos": "0",
-        "birthRetain": "false",
-        "birthPayload": "",
-        "birthMsg": {},
-        "closeTopic": "",
-        "closeQos": "0",
-        "closeRetain": "false",
-        "closePayload": "",
-        "closeMsg": {},
-        "willTopic": "",
-        "willQos": "0",
-        "willRetain": "false",
-        "willPayload": "",
-        "willMsg": {},
-        "userProps": "",
-        "sessionExpiry": ""
-    },
-    {
-        "id": "447166d7.c2fef",
-        "type": "mqtt-broker",
-        "name": "",
-        "broker": "localhost",
-        "port": "1883",
-        "clientid": "",
-        "usetls": false,
-        "compatmode": true,
-        "keepalive": "60",
-        "cleansession": true,
-        "birthTopic": "",
-        "birthQos": "0",
-        "birthPayload": "",
-        "closeTopic": "",
-        "closePayload": "",
-        "willTopic": "",
-        "willQos": "0",
-        "willPayload": ""
-    },
-    {
-        "id": "61cb93ff.8cf4a4",
-        "type": "ui_group",
-        "name": "Date Picker",
-        "tab": "c9bb955efb200be4",
-        "order": 1,
-        "disp": false,
-        "width": "30",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "a1f36ee27df0fb14",
-        "type": "ui_base",
-        "theme": {
-            "name": "theme-light",
-            "lightTheme": {
-                "default": "#0094CE",
-                "baseColor": "#0094CE",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": true,
-                "reset": false
-            },
-            "darkTheme": {
-                "default": "#097479",
-                "baseColor": "#097479",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": false
-            },
-            "customTheme": {
-                "name": "Untitled Theme 1",
-                "default": "#4B7930",
-                "baseColor": "#4B7930",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-            },
-            "themeState": {
-                "base-color": {
-                    "default": "#0094CE",
-                    "value": "#0094CE",
-                    "edited": false
-                },
-                "page-titlebar-backgroundColor": {
-                    "value": "#0094CE",
-                    "edited": false
-                },
-                "page-backgroundColor": {
-                    "value": "#fafafa",
-                    "edited": false
-                },
-                "page-sidebar-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-textColor": {
-                    "value": "#1bbfff",
-                    "edited": false
-                },
-                "group-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "widget-textColor": {
-                    "value": "#111111",
-                    "edited": false
-                },
-                "widget-backgroundColor": {
-                    "value": "#0094ce",
-                    "edited": false
-                },
-                "widget-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "base-font": {
-                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-                }
-            },
-            "angularTheme": {
-                "primary": "indigo",
-                "accents": "blue",
-                "warn": "red",
-                "background": "grey",
-                "palette": "light"
-            }
+        "id": "46af7f6f3c6f7b09",
+        "type": "group",
+        "z": "ff1940bf5cf0e080",
+        "name": "Chart",
+        "style": {
+            "label": true
         },
-        "site": {
-            "name": "Node-RED Dashboard",
-            "hideToolbar": "false",
-            "allowSwipe": "false",
-            "lockMenu": "false",
-            "allowTempTheme": "true",
-            "dateFormat": "DD/MM/YYYY",
-            "sizes": {
-                "sx": 48,
-                "sy": 48,
-                "gx": 6,
-                "gy": 6,
-                "cx": 6,
-                "cy": 6,
-                "px": 0,
-                "py": 0
-            }
-        }
+        "nodes": [
+            "380f761c3fe2f48e",
+            "da9bd9ac8870f99a",
+            "917d1c79994ee185",
+            "e02c5ce57f5acf3a",
+            "ef6a34bfc5edc792",
+            "1a855fd148b6941c",
+            "d026aa4a3c0113ae"
+        ],
+        "x": 14,
+        "y": 1679,
+        "w": 1032,
+        "h": 282
     },
     {
-        "id": "03fa6e045770563b",
-        "type": "MySQLdatabase",
-        "name": "Database",
-        "host": "127.0.0.1",
-        "port": "3306",
-        "db": "Aeroponik New",
-        "tz": "",
-        "charset": "UTF8"
+        "id": "5c9d9379fe106075",
+        "type": "group",
+        "z": "ff1940bf5cf0e080",
+        "name": "Switch Interval",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "98b755e0aa409565",
+            "515ed6c0a55f5d6d",
+            "ea42a4be0476a6c3",
+            "6e54ddf7643812da",
+            "1da56eda112f589d",
+            "132fbe38abc466c4",
+            "568d7767b24eaece",
+            "5cc7cada78440187"
+        ],
+        "x": 1174,
+        "y": 1659,
+        "w": 812,
+        "h": 222
     },
     {
-        "id": "5bd2c1ed0cfe7a87",
-        "type": "ui_group",
-        "name": "History Time",
-        "tab": "c9bb955efb200be4",
-        "order": 1,
-        "disp": false,
-        "width": "18",
-        "collapse": false,
-        "className": ""
+        "id": "549c90febe12d02e",
+        "type": "group",
+        "z": "ff1940bf5cf0e080",
+        "name": "Switch Id Sensor",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "fe5a7252f667709e",
+            "cab7ac21bd90ca0a",
+            "61b532c46ce92a66",
+            "0825c4c584150c26",
+            "db9bcfe6e6f972a2",
+            "2ad58ece62d3c370"
+        ],
+        "x": 1174,
+        "y": 1899,
+        "w": 832,
+        "h": 162
     },
     {
-        "id": "4be9e04c9c51f3fc",
-        "type": "ui_group",
-        "name": "Chart",
-        "tab": "cc409f22204b54fd",
-        "order": 1,
-        "disp": false,
-        "width": 13,
-        "collapse": false,
-        "className": ""
+        "id": "08b3c61a87d9ac04",
+        "type": "group",
+        "z": "ff1940bf5cf0e080",
+        "name": "Live Sensor",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "8e535299a2b30a64",
+            "12a1a4acf62e48c5",
+            "2769ae311f6fb8b0",
+            "1f505a5ebc61467d",
+            "4838162f2d183a0c",
+            "417a3dd5dc32670b",
+            "e39e5f41050deee8"
+        ],
+        "x": 474,
+        "y": 2139,
+        "w": 492,
+        "h": 202
     },
     {
-        "id": "ae91f222be969727",
-        "type": "ui_group",
-        "name": "Home",
-        "tab": "cc409f22204b54fd",
-        "order": 1,
-        "disp": false,
-        "width": "18",
-        "collapse": false,
-        "className": ""
+        "id": "230a35f09df02c26",
+        "type": "group",
+        "z": "ff1940bf5cf0e080",
+        "name": "Alarm Sistem",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "0938114153f9430b",
+            "ae5141cf9dba6fad",
+            "b4f93aacd108a8f2",
+            "30eab01a37fcf979",
+            "3db59f8ddbcbdb9d",
+            "2b0872648141d8fb",
+            "1831b702b2d9b38a",
+            "9dc1edfa6c44aad0"
+        ],
+        "x": 194,
+        "y": 2379,
+        "w": 932,
+        "h": 202
     },
     {
-        "id": "da033ba0d3cdcfd7",
-        "type": "ui_group",
-        "name": "View",
-        "tab": "",
-        "order": 2,
-        "disp": false,
-        "width": "12",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "cc409f22204b54fd",
-        "type": "ui_tab",
-        "name": "Home",
-        "icon": "fa-home ",
-        "order": 1,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "37ddc87dd83ef5a7",
-        "type": "MySQLdatabase",
-        "name": "",
-        "host": "localhost",
-        "port": "3306",
-        "db": "aeroponik24",
-        "tz": "",
-        "charset": ""
-    },
-    {
-        "id": "2edf52e4c2e84a2c",
-        "type": "ui_group",
-        "name": "Waktu",
-        "tab": "",
-        "order": 1,
-        "disp": false,
-        "width": "4",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "380cf67d39a9bb66",
-        "type": "ui_group",
-        "name": "Chart",
-        "tab": "",
-        "order": 2,
-        "disp": false,
-        "width": "12",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "56225b278f1df8be",
-        "type": "ui_group",
-        "name": "Sensor Values",
-        "tab": "",
-        "order": 2,
-        "disp": true,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "3c5b98af9c751fd2",
-        "type": "serial-port",
-        "name": "Data_Sensor 1-6",
-        "serialport": "/dev/ttyUSB1",
-        "serialbaud": "9600",
-        "databits": "8",
-        "parity": "none",
-        "stopbits": "1",
-        "waitfor": "",
-        "dtr": "none",
-        "rts": "none",
-        "cts": "none",
-        "dsr": "none",
-        "newline": "\\n",
-        "bin": "false",
-        "out": "char",
-        "addchar": "",
-        "responsetimeout": "10000"
-    },
-    {
-        "id": "b2a9f3518e88ac70",
-        "type": "serial-port",
-        "name": "Data_Sensor 7-12",
-        "serialport": "/dev/ttyUSB0",
-        "serialbaud": "9600",
-        "databits": "8",
-        "parity": "none",
-        "stopbits": "1",
-        "waitfor": "",
-        "dtr": "none",
-        "rts": "none",
-        "cts": "none",
-        "dsr": "none",
-        "newline": "\\n",
-        "bin": "false",
-        "out": "char",
-        "addchar": "",
-        "responsetimeout": "10000"
-    },
-    {
-        "id": "77befd9d740493b4",
-        "type": "ui_spacer",
-        "z": "b3992304f85322cf",
-        "name": "spacer",
-        "group": "61cb93ff.8cf4a4",
-        "order": 1,
-        "width": 30,
-        "height": 1
-    },
-    {
-        "id": "84d8cc28fd1bb0f7",
-        "type": "ui_spacer",
-        "z": "b3992304f85322cf",
-        "name": "spacer",
-        "group": "61cb93ff.8cf4a4",
-        "order": 3,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "498036615692362f",
-        "type": "ui_spacer",
-        "z": "b3992304f85322cf",
-        "name": "spacer",
-        "group": "61cb93ff.8cf4a4",
-        "order": 5,
-        "width": 8,
-        "height": 1
-    },
-    {
-        "id": "604c2539aa7d170c",
-        "type": "ui_spacer",
-        "z": "b3992304f85322cf",
-        "name": "spacer",
-        "group": "61cb93ff.8cf4a4",
-        "order": 6,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "f00c1801f38427b7",
-        "type": "ui_spacer",
-        "z": "b3992304f85322cf",
-        "name": "spacer",
-        "group": "61cb93ff.8cf4a4",
-        "order": 7,
-        "width": 8,
-        "height": 1
-    },
-    {
-        "id": "4d05e6c7bc614290",
-        "type": "ui_spacer",
-        "z": "b3992304f85322cf",
-        "name": "spacer",
-        "group": "61cb93ff.8cf4a4",
-        "order": 8,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "44b86a9c256d8d3d",
-        "type": "ui_spacer",
-        "z": "b3992304f85322cf",
-        "name": "spacer",
-        "group": "61cb93ff.8cf4a4",
-        "order": 9,
-        "width": 8,
-        "height": 1
-    },
-    {
-        "id": "abb511a963a73520",
-        "type": "ui_spacer",
-        "z": "b3992304f85322cf",
-        "name": "spacer",
-        "group": "61cb93ff.8cf4a4",
-        "order": 11,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "82d617777da1ea36",
-        "type": "ui_spacer",
-        "z": "b3992304f85322cf",
-        "name": "spacer",
-        "group": "61cb93ff.8cf4a4",
-        "order": 12,
-        "width": 8,
-        "height": 1
-    },
-    {
-        "id": "cd6336327e33ba0c",
-        "type": "ui_spacer",
-        "z": "b3992304f85322cf",
-        "name": "spacer",
-        "group": "61cb93ff.8cf4a4",
-        "order": 13,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "6e1df007a111cc7e",
-        "type": "ui_spacer",
-        "z": "b3992304f85322cf",
-        "name": "spacer",
-        "group": "61cb93ff.8cf4a4",
-        "order": 14,
-        "width": 8,
-        "height": 1
-    },
-    {
-        "id": "bb6964e8fa9d63db",
-        "type": "ui_spacer",
-        "z": "b3992304f85322cf",
-        "name": "spacer",
-        "group": "61cb93ff.8cf4a4",
-        "order": 15,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "83ff414311c024dc",
-        "type": "ui_spacer",
-        "z": "b3992304f85322cf",
-        "name": "spacer",
-        "group": "61cb93ff.8cf4a4",
-        "order": 16,
-        "width": 8,
-        "height": 1
-    },
-    {
-        "id": "db825741d2acb1b2",
-        "type": "ui_spacer",
-        "z": "b3992304f85322cf",
-        "name": "spacer",
-        "group": "61cb93ff.8cf4a4",
-        "order": 18,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "5dc47796ddd9758d",
-        "type": "ui_spacer",
-        "z": "b3992304f85322cf",
-        "name": "spacer",
-        "group": "61cb93ff.8cf4a4",
-        "order": 19,
-        "width": 8,
-        "height": 1
-    },
-    {
-        "id": "bf227dd6b395306c",
-        "type": "ui_spacer",
-        "z": "b3992304f85322cf",
-        "name": "spacer",
-        "group": "61cb93ff.8cf4a4",
-        "order": 20,
-        "width": 24,
-        "height": 1
-    },
-    {
-        "id": "9093cf647c87026c",
-        "type": "ui_spacer",
-        "z": "b3992304f85322cf",
-        "name": "spacer",
-        "group": "61cb93ff.8cf4a4",
-        "order": 21,
-        "width": 24,
-        "height": 1
-    },
-    {
-        "id": "c9bb955efb200be4",
-        "type": "ui_tab",
-        "name": "Dasboard",
-        "icon": "dashboard",
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "72a129125d9b9435",
-        "type": "ui_spacer",
-        "z": "b3992304f85322cf",
-        "name": "spacer",
-        "group": "4be9e04c9c51f3fc",
-        "order": 2,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "d95b5e80a46bcfeb",
-        "type": "ui_spacer",
-        "z": "b3992304f85322cf",
-        "name": "spacer",
-        "group": "4be9e04c9c51f3fc",
-        "order": 5,
-        "width": 13,
-        "height": 1
-    },
-    {
-        "id": "0ee19da4c3902947",
+        "id": "2d13c4bdab20d1c3",
         "type": "ui_switch",
-        "z": "b3992304f85322cf",
-        "g": "0b7813dc43286c3f",
+        "z": "ff1940bf5cf0e080",
+        "g": "2f917d64d1105ccb",
         "name": "",
         "label": "switch",
         "tooltip": "",
         "group": "ae91f222be969727",
-        "order": 4,
-        "width": 0,
-        "height": 0,
+        "order": 2,
+        "width": 5,
+        "height": 1,
         "passthru": true,
         "decouple": "false",
         "topic": "nodered/control",
@@ -684,16 +292,16 @@
         "y": 620,
         "wires": [
             [
-                "1530eb2f79a77dac",
-                "1c733b0e383b780e"
+                "15747c351378e773",
+                "d717dcfaa6cfdd77"
             ]
         ]
     },
     {
-        "id": "1530eb2f79a77dac",
+        "id": "15747c351378e773",
         "type": "mqtt out",
-        "z": "b3992304f85322cf",
-        "g": "0b7813dc43286c3f",
+        "z": "ff1940bf5cf0e080",
+        "g": "2f917d64d1105ccb",
         "name": "",
         "topic": "nodered/control",
         "qos": "",
@@ -709,12 +317,12 @@
         "wires": []
     },
     {
-        "id": "1c733b0e383b780e",
+        "id": "d717dcfaa6cfdd77",
         "type": "debug",
-        "z": "b3992304f85322cf",
-        "g": "0b7813dc43286c3f",
+        "z": "ff1940bf5cf0e080",
+        "g": "2f917d64d1105ccb",
         "name": "debug 3",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -726,17 +334,17 @@
         "wires": []
     },
     {
-        "id": "8f6ab52327b5f21e",
+        "id": "a0c7b39a09dc34b2",
         "type": "ui_text_input",
-        "z": "b3992304f85322cf",
-        "g": "0b7813dc43286c3f",
+        "z": "ff1940bf5cf0e080",
+        "g": "2f917d64d1105ccb",
         "name": "",
         "label": "",
         "tooltip": "",
-        "group": "ae91f222be969727",
+        "group": "61d06a7ae922d48f",
         "order": 1,
-        "width": 0,
-        "height": 0,
+        "width": 5,
+        "height": 1,
         "passthru": true,
         "mode": "text",
         "delay": "0",
@@ -748,16 +356,16 @@
         "y": 720,
         "wires": [
             [
-                "3bffb007083a2dfe",
-                "ed2c81ca92b00c72"
+                "0c13efd6ca60b393",
+                "cbc57d89f4101b82"
             ]
         ]
     },
     {
-        "id": "3bffb007083a2dfe",
+        "id": "0c13efd6ca60b393",
         "type": "mqtt out",
-        "z": "b3992304f85322cf",
-        "g": "0b7813dc43286c3f",
+        "z": "ff1940bf5cf0e080",
+        "g": "2f917d64d1105ccb",
         "name": "",
         "topic": "nodered/input_text",
         "qos": "",
@@ -773,12 +381,12 @@
         "wires": []
     },
     {
-        "id": "ed2c81ca92b00c72",
+        "id": "cbc57d89f4101b82",
         "type": "debug",
-        "z": "b3992304f85322cf",
-        "g": "0b7813dc43286c3f",
+        "z": "ff1940bf5cf0e080",
+        "g": "2f917d64d1105ccb",
         "name": "debug 4",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -790,10 +398,10 @@
         "wires": []
     },
     {
-        "id": "mqtt-in-node",
+        "id": "93f011ff81865ca4",
         "type": "mqtt in",
-        "z": "b3992304f85322cf",
-        "g": "11b8082afbf74168",
+        "z": "ff1940bf5cf0e080",
+        "g": "e91e162995eed73b",
         "name": "Sensor Data",
         "topic": "sensor/data",
         "qos": "2",
@@ -806,15 +414,16 @@
         "y": 880,
         "wires": [
             [
-                "json-node"
+                "7f3c3131f6f75527",
+                "192f4cbc221573c7"
             ]
         ]
     },
     {
-        "id": "json-node",
+        "id": "7f3c3131f6f75527",
         "type": "json",
-        "z": "b3992304f85322cf",
-        "g": "11b8082afbf74168",
+        "z": "ff1940bf5cf0e080",
+        "g": "e91e162995eed73b",
         "name": "Parse JSON",
         "property": "payload",
         "action": "",
@@ -823,15 +432,15 @@
         "y": 880,
         "wires": [
             [
-                "function-node"
+                "94a3faeb1750f8e0"
             ]
         ]
     },
     {
-        "id": "function-node",
+        "id": "94a3faeb1750f8e0",
         "type": "function",
-        "z": "b3992304f85322cf",
-        "g": "11b8082afbf74168",
+        "z": "ff1940bf5cf0e080",
+        "g": "e91e162995eed73b",
         "name": "Set Global",
         "func": "// Retrieve previous values from global context\nvar previousTemp1 = global.get(\"temp1\") || null;\nvar previousHum1 = global.get(\"hum1\") || null;\n\nvar previousTemp2 = global.get(\"temp2\") || null;\nvar previousHum2 = global.get(\"hum2\") || null;\n\nvar previousTemp3 = global.get(\"temp3\") || null;\nvar previousHum3 = global.get(\"hum3\") || null;\n\n// Ensure the payload has at least 6 elements\nif (Array.isArray(msg.payload) && msg.payload.length >= 6) {\n    var sensor1_temp = msg.payload[0] !== undefined ? msg.payload[0] : previousTemp1;\n    var sensor1_hum = msg.payload[1] !== undefined ? msg.payload[1] : previousHum1;\n\n    var sensor2_temp = msg.payload[2] !== undefined ? msg.payload[2] : previousTemp2;\n    var sensor2_hum = msg.payload[3] !== undefined ? msg.payload[3] : previousHum2;\n\n    var sensor3_temp = msg.payload[4] !== undefined ? msg.payload[4] : previousTemp3;\n    var sensor3_hum = msg.payload[5] !== undefined ? msg.payload[5] : previousHum3;\n} else {\n    // If payload is not as expected, use previous values\n    var sensor1_temp = previousTemp1;\n    var sensor1_hum = previousHum1;\n\n    var sensor2_temp = previousTemp2;\n    var sensor2_hum = previousHum2;\n\n    var sensor3_temp = previousTemp3;\n    var sensor3_hum = previousHum3;\n}\n\n// Store variables in the global context\nglobal.set(\"temp1\", sensor1_temp);\nglobal.set(\"hum1\", sensor1_hum);\nglobal.set(\"temp2\", sensor2_temp);\nglobal.set(\"hum2\", sensor2_hum);\nglobal.set(\"temp3\", sensor3_temp);\nglobal.set(\"hum3\", sensor3_hum);\n\nmsg.payload = {\n    temp1: sensor1_temp,\n    hum1: sensor1_hum,\n    temp2: sensor2_temp,\n    hum2: sensor2_hum,\n    temp3: sensor3_temp,\n    hum3: sensor3_hum,\n};\n\nreturn msg;\n",
         "outputs": 1,
@@ -843,16 +452,14 @@
         "x": 550,
         "y": 880,
         "wires": [
-            [
-                "1237c7792c8f8d16"
-            ]
+            []
         ]
     },
     {
-        "id": "7a9b75e914d4e82f",
+        "id": "4f4c5d94ca7a5192",
         "type": "function",
-        "z": "b3992304f85322cf",
-        "g": "66d8cc5ddd3ca831",
+        "z": "ff1940bf5cf0e080",
+        "g": "900eb541bb33648e",
         "name": "Write Data",
         "func": "// Ambil global variables\nvar sensorData = [\n  { id: 1, temp: global.get(\"temp1\"), hum: global.get(\"hum1\") },\n  { id: 2, temp: global.get(\"temp2\"), hum: global.get(\"hum2\") },\n  { id: 3, temp: global.get(\"temp3\"), hum: global.get(\"hum3\") }\n  // Tambahkan data sensor tambahan di sini\n];\n\n// SQL queries to insert sensor data into the table\nlet queries = [];\n\n// Loop through the sensor data array and create queries\nsensorData.forEach(sensor => {\n  queries.push({\n    topic: `\n          INSERT INTO \\`Value\\` (sensor_id, val1, val2)\n          VALUES (?, ?, ?);\n        `,\n    payload: [sensor.id, sensor.temp, sensor.hum]\n  });\n});\n\nreturn [queries];\n",
         "outputs": 1,
@@ -865,18 +472,18 @@
         "y": 1000,
         "wires": [
             [
-                "2148927de84d6799",
-                "9af79870142d356d"
+                "2e51d5f9d29e6a92",
+                "4197a338b3b6b67e"
             ]
         ]
     },
     {
-        "id": "2148927de84d6799",
+        "id": "2e51d5f9d29e6a92",
         "type": "debug",
-        "z": "b3992304f85322cf",
-        "g": "66d8cc5ddd3ca831",
+        "z": "ff1940bf5cf0e080",
+        "g": "900eb541bb33648e",
         "name": "debug 5",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -888,10 +495,10 @@
         "wires": []
     },
     {
-        "id": "9af79870142d356d",
+        "id": "4197a338b3b6b67e",
         "type": "mysql",
-        "z": "b3992304f85322cf",
-        "g": "66d8cc5ddd3ca831",
+        "z": "ff1940bf5cf0e080",
+        "g": "900eb541bb33648e",
         "mydb": "03fa6e045770563b",
         "name": "Database",
         "x": 580,
@@ -901,10 +508,10 @@
         ]
     },
     {
-        "id": "35175cb02f24e675",
+        "id": "f0e8f59cc81b9b95",
         "type": "inject",
-        "z": "b3992304f85322cf",
-        "g": "66d8cc5ddd3ca831",
+        "z": "ff1940bf5cf0e080",
+        "g": "900eb541bb33648e",
         "name": "",
         "props": [
             {
@@ -926,15 +533,15 @@
         "y": 1000,
         "wires": [
             [
-                "7a9b75e914d4e82f"
+                "4f4c5d94ca7a5192"
             ]
         ]
     },
     {
-        "id": "1237c7792c8f8d16",
+        "id": "192f4cbc221573c7",
         "type": "debug",
-        "z": "b3992304f85322cf",
-        "g": "11b8082afbf74168",
+        "z": "ff1940bf5cf0e080",
+        "g": "e91e162995eed73b",
         "name": "debug 6",
         "active": false,
         "tosidebar": true,
@@ -944,32 +551,31 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 720,
-        "y": 880,
+        "x": 760,
+        "y": 840,
         "wires": []
     },
     {
-        "id": "6cb6b8cfb591625f",
+        "id": "867fe58c438a9073",
         "type": "mysql",
-        "z": "b3992304f85322cf",
-        "g": "79d717f6a392753c",
+        "z": "ff1940bf5cf0e080",
+        "g": "f5d6ee0cd0dadc87",
         "mydb": "03fa6e045770563b",
         "name": "Database",
         "x": 580,
         "y": 1240,
         "wires": [
             [
-                "f143e8c73b748afa",
-                "715d84402488f280",
-                "3cb83efd9ad90a8e"
+                "43d82863506ef992",
+                "a3d6127a0a5f88ee"
             ]
         ]
     },
     {
-        "id": "8f4232d017ca1d73",
+        "id": "69126def83cf3b28",
         "type": "function",
-        "z": "b3992304f85322cf",
-        "g": "79d717f6a392753c",
+        "z": "ff1940bf5cf0e080",
+        "g": "f5d6ee0cd0dadc87",
         "name": "Read Sensor",
         "func": "// Bangun query SQL\nmsg.topic = \"SELECT sensor_id, val1, val2, timestamp FROM Value ORDER BY timestamp DESC\";\nreturn msg;\n",
         "outputs": 1,
@@ -982,15 +588,15 @@
         "y": 1240,
         "wires": [
             [
-                "6cb6b8cfb591625f"
+                "867fe58c438a9073"
             ]
         ]
     },
     {
-        "id": "4f9b667302ae0d88",
+        "id": "0cb43b758462327f",
         "type": "inject",
-        "z": "b3992304f85322cf",
-        "g": "79d717f6a392753c",
+        "z": "ff1940bf5cf0e080",
+        "g": "f5d6ee0cd0dadc87",
         "name": "",
         "props": [
             {
@@ -1008,15 +614,15 @@
         "y": 1240,
         "wires": [
             [
-                "8f4232d017ca1d73"
+                "69126def83cf3b28"
             ]
         ]
     },
     {
-        "id": "f143e8c73b748afa",
+        "id": "43d82863506ef992",
         "type": "function",
-        "z": "b3992304f85322cf",
-        "g": "79d717f6a392753c",
+        "z": "ff1940bf5cf0e080",
+        "g": "f5d6ee0cd0dadc87",
         "name": "Payload To Database",
         "func": "var resultArray=msg.payload;\n// Siapkan payload untuk chart\nmsg.payload = [\n    {\n        series: [\"Temperature\", \"Humidity\"],\n        data: [\n            resultArray.map(entry => ({ x: new Date(entry.time), y: entry.temperature })),\n            resultArray.map(entry => ({ x: new Date(entry.time), y: entry.humidity }))\n        ],\n        labels: resultArray.map(entry => new Date(entry.time))\n    }\n];\nreturn msg;",
         "outputs": 1,
@@ -1032,9 +638,9 @@
         ]
     },
     {
-        "id": "86481592b95f860b",
+        "id": "7c289e7b8a6504d2",
         "type": "function",
-        "z": "b3992304f85322cf",
+        "z": "ff1940bf5cf0e080",
         "name": "function 4",
         "func": "\n",
         "outputs": 1,
@@ -1050,9 +656,9 @@
         ]
     },
     {
-        "id": "6f2bbd1b2e256ac7",
+        "id": "d83d45ee1e42c06f",
         "type": "ui_template",
-        "z": "b3992304f85322cf",
+        "z": "ff1940bf5cf0e080",
         "group": "61cb93ff.8cf4a4",
         "name": "Sensor Box",
         "order": 10,
@@ -1071,9 +677,9 @@
         ]
     },
     {
-        "id": "18e6cc36f54255bd",
+        "id": "9a9944baa7402df5",
         "type": "ui_template",
-        "z": "b3992304f85322cf",
+        "z": "ff1940bf5cf0e080",
         "group": "61cb93ff.8cf4a4",
         "name": "Sensor Box",
         "order": 2,
@@ -1092,9 +698,9 @@
         ]
     },
     {
-        "id": "2382734811461a38",
+        "id": "40e71181e85bd214",
         "type": "ui_template",
-        "z": "b3992304f85322cf",
+        "z": "ff1940bf5cf0e080",
         "group": "61cb93ff.8cf4a4",
         "name": "Sensor Box",
         "order": 17,
@@ -1113,9 +719,9 @@
         ]
     },
     {
-        "id": "f15bc6b0deb2416f",
+        "id": "24b9ffe0c8692023",
         "type": "debug",
-        "z": "b3992304f85322cf",
+        "z": "ff1940bf5cf0e080",
         "name": "debug 7",
         "active": true,
         "tosidebar": true,
@@ -1130,10 +736,10 @@
         "wires": []
     },
     {
-        "id": "715d84402488f280",
+        "id": "a3d6127a0a5f88ee",
         "type": "function",
-        "z": "b3992304f85322cf",
-        "g": "79d717f6a392753c",
+        "z": "ff1940bf5cf0e080",
+        "g": "f5d6ee0cd0dadc87",
         "name": "Filter Database",
         "func": "var data = msg.payload;\n// Filter data untuk sensor_id 1\nvar filteredData = data.filter(item => item.sensor_id === 1);\n\n// Ekstrak data untuk chart\nvar timestamp = filteredData.map(item => new Date(item.timestamp));\nvar temp = filteredData.map(item => item.val1);\nvar humid = filteredData.map(item => item.val2);\n\nmsg.payload = {\n    temperature: temp,\n    humidity: humid,\n    timestamp: timestamp,\n};\n\nreturn msg;",
         "outputs": 1,
@@ -1149,14 +755,14 @@
         ]
     },
     {
-        "id": "fd50b8556cc30546",
+        "id": "8897a97fcaa0e0e6",
         "type": "ui_template",
-        "z": "b3992304f85322cf",
+        "z": "ff1940bf5cf0e080",
         "group": "ae91f222be969727",
         "name": "",
-        "order": 3,
-        "width": 0,
-        "height": 0,
+        "order": 1,
+        "width": 5,
+        "height": 1,
         "format": "<a> {{msg.payload.temperature}}</a>",
         "storeOutMessages": true,
         "fwdInMessages": true,
@@ -1170,9 +776,9 @@
         ]
     },
     {
-        "id": "bca87ced8ee83d48",
+        "id": "c9f762d9e30d50a4",
         "type": "ui_template",
-        "z": "b3992304f85322cf",
+        "z": "ff1940bf5cf0e080",
         "group": "61cb93ff.8cf4a4",
         "name": "Chart Box",
         "order": 4,
@@ -1191,16 +797,16 @@
         ]
     },
     {
-        "id": "1",
+        "id": "a2245ae2e5289d48",
         "type": "ui_dropdown",
-        "z": "b3992304f85322cf",
+        "z": "ff1940bf5cf0e080",
         "d": true,
-        "g": "59bf9e6525b6f2cf",
+        "g": "3632a2ad0670fc82",
         "name": "",
         "label": "Pilih Sensor",
         "tooltip": "",
         "place": "Select option",
-        "group": "4be9e04c9c51f3fc",
+        "group": "",
         "order": 1,
         "width": 0,
         "height": 0,
@@ -1231,16 +837,16 @@
         "y": 1040,
         "wires": [
             [
-                "2"
+                "4525abda07ddf182"
             ]
         ]
     },
     {
-        "id": "2",
+        "id": "4525abda07ddf182",
         "type": "switch",
-        "z": "b3992304f85322cf",
+        "z": "ff1940bf5cf0e080",
         "d": true,
-        "g": "59bf9e6525b6f2cf",
+        "g": "3632a2ad0670fc82",
         "name": "",
         "property": "payload",
         "propertyType": "msg",
@@ -1268,22 +874,22 @@
         "y": 1040,
         "wires": [
             [
-                "3"
+                "3134d57b317c8dd9"
             ],
             [
-                "4"
+                "82dee572da7ccb11"
             ],
             [
-                "5"
+                "042311d6379c14ab"
             ]
         ]
     },
     {
-        "id": "3",
+        "id": "3134d57b317c8dd9",
         "type": "function",
-        "z": "b3992304f85322cf",
+        "z": "ff1940bf5cf0e080",
         "d": true,
-        "g": "59bf9e6525b6f2cf",
+        "g": "3632a2ad0670fc82",
         "name": "Sensor 1",
         "func": "msg.payload = \"Data dari Sensor 1\";\nreturn msg;",
         "outputs": 1,
@@ -1296,16 +902,16 @@
         "y": 1000,
         "wires": [
             [
-                "6"
+                "eb6d81b63aa5b0d8"
             ]
         ]
     },
     {
-        "id": "4",
+        "id": "82dee572da7ccb11",
         "type": "function",
-        "z": "b3992304f85322cf",
+        "z": "ff1940bf5cf0e080",
         "d": true,
-        "g": "59bf9e6525b6f2cf",
+        "g": "3632a2ad0670fc82",
         "name": "Sensor 2",
         "func": "msg.payload = \"Data dari Sensor 2\";\nreturn msg;",
         "outputs": 1,
@@ -1318,16 +924,16 @@
         "y": 1040,
         "wires": [
             [
-                "6"
+                "eb6d81b63aa5b0d8"
             ]
         ]
     },
     {
-        "id": "5",
+        "id": "042311d6379c14ab",
         "type": "function",
-        "z": "b3992304f85322cf",
+        "z": "ff1940bf5cf0e080",
         "d": true,
-        "g": "59bf9e6525b6f2cf",
+        "g": "3632a2ad0670fc82",
         "name": "Sensor 3",
         "func": "msg.payload = \"Data dari Sensor 3\";\nreturn msg;",
         "outputs": 1,
@@ -1340,20 +946,20 @@
         "y": 1080,
         "wires": [
             [
-                "6"
+                "eb6d81b63aa5b0d8"
             ]
         ]
     },
     {
-        "id": "6",
+        "id": "eb6d81b63aa5b0d8",
         "type": "ui_text",
-        "z": "b3992304f85322cf",
+        "z": "ff1940bf5cf0e080",
         "d": true,
-        "g": "59bf9e6525b6f2cf",
-        "group": "ae91f222be969727",
+        "g": "3632a2ad0670fc82",
+        "group": "61d06a7ae922d48f",
         "order": 2,
-        "width": 0,
-        "height": 0,
+        "width": 5,
+        "height": 1,
         "name": "",
         "label": "Output",
         "format": "{{msg.payload}}",
@@ -1368,9 +974,9 @@
         "wires": []
     },
     {
-        "id": "0edc47c661e5814b",
+        "id": "fa36084f77044e4e",
         "type": "ui_date_picker",
-        "z": "b3992304f85322cf",
+        "z": "ff1940bf5cf0e080",
         "name": "",
         "label": "Date",
         "group": "61cb93ff.8cf4a4",
@@ -1385,14 +991,14 @@
         "y": 420,
         "wires": [
             [
-                "f15bc6b0deb2416f"
+                "24b9ffe0c8692023"
             ]
         ]
     },
     {
-        "id": "aee03609dd2370fc",
+        "id": "ca0d7b01d2021448",
         "type": "ui_form",
-        "z": "b3992304f85322cf",
+        "z": "ff1940bf5cf0e080",
         "name": "",
         "label": "",
         "group": "5bd2c1ed0cfe7a87",
@@ -1430,21 +1036,21 @@
         "y": 460,
         "wires": [
             [
-                "f15bc6b0deb2416f"
+                "24b9ffe0c8692023"
             ]
         ]
     },
     {
-        "id": "27a726779bf70d27",
+        "id": "f1cab4165c0121e6",
         "type": "ui_dropdown",
-        "z": "b3992304f85322cf",
-        "g": "8ddcf4d5dd59e428",
+        "z": "ff1940bf5cf0e080",
+        "g": "0f45a4344fa9be34",
         "name": "",
         "label": "",
         "tooltip": "",
         "place": "Select option",
-        "group": "4be9e04c9c51f3fc",
-        "order": 3,
+        "group": "452ce4a27b98b96f",
+        "order": 5,
         "width": 5,
         "height": 1,
         "passthru": true,
@@ -1474,15 +1080,15 @@
         "y": 1240,
         "wires": [
             [
-                "6b33b208c18dd35a"
+                "9db3e0383ec1488a"
             ]
         ]
     },
     {
-        "id": "6b33b208c18dd35a",
+        "id": "9db3e0383ec1488a",
         "type": "switch",
-        "z": "b3992304f85322cf",
-        "g": "8ddcf4d5dd59e428",
+        "z": "ff1940bf5cf0e080",
+        "g": "0f45a4344fa9be34",
         "name": "",
         "property": "payload",
         "propertyType": "msg",
@@ -1510,21 +1116,21 @@
         "y": 1240,
         "wires": [
             [
-                "6291b48d2d581a8a"
+                "7b545d9df3c853c3"
             ],
             [
-                "b66c0e337b07f7e6"
+                "0993ed0aca060689"
             ],
             [
-                "e8f21cc282bb3b0b"
+                "fee6636da1d680ca"
             ]
         ]
     },
     {
-        "id": "6291b48d2d581a8a",
+        "id": "7b545d9df3c853c3",
         "type": "function",
-        "z": "b3992304f85322cf",
-        "g": "8ddcf4d5dd59e428",
+        "z": "ff1940bf5cf0e080",
+        "g": "0f45a4344fa9be34",
         "name": "Sensor 1",
         "func": "// Ambil data dari msg.payload\nvar select = 1;\n\n// Simpan data ke variabel global\nglobal.set(\"id_selected\", select);\n\nmsg.payload = {\n    id_selected:select,\n};\nreturn msg;",
         "outputs": 1,
@@ -1537,15 +1143,15 @@
         "y": 1200,
         "wires": [
             [
-                "b3a91f850dba6550"
+                "6c4da7c51abdea24"
             ]
         ]
     },
     {
-        "id": "b66c0e337b07f7e6",
+        "id": "0993ed0aca060689",
         "type": "function",
-        "z": "b3992304f85322cf",
-        "g": "8ddcf4d5dd59e428",
+        "z": "ff1940bf5cf0e080",
+        "g": "0f45a4344fa9be34",
         "name": "Sensor 2",
         "func": "// Ambil data dari msg.payload\nvar select = 2;\n\n// Simpan data ke variabel global\nglobal.set(\"id_selected\", select);\n\nmsg.payload = {\n    id:select,\n};\nreturn msg;",
         "outputs": 1,
@@ -1558,15 +1164,15 @@
         "y": 1240,
         "wires": [
             [
-                "b3a91f850dba6550"
+                "6c4da7c51abdea24"
             ]
         ]
     },
     {
-        "id": "e8f21cc282bb3b0b",
+        "id": "fee6636da1d680ca",
         "type": "function",
-        "z": "b3992304f85322cf",
-        "g": "8ddcf4d5dd59e428",
+        "z": "ff1940bf5cf0e080",
+        "g": "0f45a4344fa9be34",
         "name": "Sensor 3",
         "func": "// Ambil data dari msg.payload\nvar select = 3;\n\n// Simpan data ke variabel global\nglobal.set(\"id_selected\", select);\n\nmsg.payload = {\n    id:select,\n};\nreturn msg;",
         "outputs": 1,
@@ -1579,17 +1185,17 @@
         "y": 1280,
         "wires": [
             [
-                "b3a91f850dba6550"
+                "6c4da7c51abdea24"
             ]
         ]
     },
     {
-        "id": "b3a91f850dba6550",
+        "id": "6c4da7c51abdea24",
         "type": "debug",
-        "z": "b3992304f85322cf",
-        "g": "8ddcf4d5dd59e428",
+        "z": "ff1940bf5cf0e080",
+        "g": "0f45a4344fa9be34",
         "name": "Payload Switch",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -1602,16 +1208,16 @@
         "wires": []
     },
     {
-        "id": "e1d391f38d54d929",
+        "id": "0d3234d4d05b90e3",
         "type": "ui_dropdown",
-        "z": "b3992304f85322cf",
-        "g": "4dfa38dcbcd8952b",
+        "z": "ff1940bf5cf0e080",
+        "g": "d75e394c65d1b31f",
         "name": "",
         "label": "",
         "tooltip": "",
         "place": "Select option",
-        "group": "4be9e04c9c51f3fc",
-        "order": 4,
+        "group": "452ce4a27b98b96f",
+        "order": 6,
         "width": 5,
         "height": 1,
         "passthru": true,
@@ -1646,15 +1252,15 @@
         "y": 1420,
         "wires": [
             [
-                "966a9605db729fce"
+                "59d286f0e1f70f4a"
             ]
         ]
     },
     {
-        "id": "966a9605db729fce",
+        "id": "59d286f0e1f70f4a",
         "type": "switch",
-        "z": "b3992304f85322cf",
-        "g": "4dfa38dcbcd8952b",
+        "z": "ff1940bf5cf0e080",
+        "g": "d75e394c65d1b31f",
         "name": "",
         "property": "payload",
         "propertyType": "msg",
@@ -1687,24 +1293,24 @@
         "y": 1420,
         "wires": [
             [
-                "c9da7d680fd65d22"
+                "7599ad74c11720de"
             ],
             [
-                "3e7bedd203ae0c88"
+                "238434c5872606d3"
             ],
             [
-                "91dc4f441501b339"
+                "19a5462f2eaaf758"
             ],
             [
-                "c440da5f8beebe43"
+                "b031c63868ae1c57"
             ]
         ]
     },
     {
-        "id": "c9da7d680fd65d22",
+        "id": "7599ad74c11720de",
         "type": "function",
-        "z": "b3992304f85322cf",
-        "g": "4dfa38dcbcd8952b",
+        "z": "ff1940bf5cf0e080",
+        "g": "d75e394c65d1b31f",
         "name": "1 Day",
         "func": "// Ambil data dari msg.payload\nvar select = \"1day\";\n\n// Simpan data ke variabel global\nglobal.set(\"interval_selected\", select);\n\nmsg.payload = {\n    set_interval:select,\n};\nreturn msg;",
         "outputs": 1,
@@ -1717,15 +1323,15 @@
         "y": 1380,
         "wires": [
             [
-                "0f0f0de480e1bfa0"
+                "ded868b93d7b5aa1"
             ]
         ]
     },
     {
-        "id": "3e7bedd203ae0c88",
+        "id": "238434c5872606d3",
         "type": "function",
-        "z": "b3992304f85322cf",
-        "g": "4dfa38dcbcd8952b",
+        "z": "ff1940bf5cf0e080",
+        "g": "d75e394c65d1b31f",
         "name": "1 Week",
         "func": "// Ambil data dari msg.payload\nvar select = \"1week\";\n\n// Simpan data ke variabel global\nglobal.set(\"interval_selected\", select);\n\nmsg.payload = {\n    set_interval:select,\n};\nreturn msg;",
         "outputs": 1,
@@ -1738,15 +1344,15 @@
         "y": 1420,
         "wires": [
             [
-                "0f0f0de480e1bfa0"
+                "ded868b93d7b5aa1"
             ]
         ]
     },
     {
-        "id": "91dc4f441501b339",
+        "id": "19a5462f2eaaf758",
         "type": "function",
-        "z": "b3992304f85322cf",
-        "g": "4dfa38dcbcd8952b",
+        "z": "ff1940bf5cf0e080",
+        "g": "d75e394c65d1b31f",
         "name": "1 Month",
         "func": "// Ambil data dari msg.payload\nvar select = \"1month\";\n\n// Simpan data ke variabel global\nglobal.set(\"interval_selected\", select);\n\nmsg.payload = {\n    set_interval:select,\n};\nreturn msg;",
         "outputs": 1,
@@ -1759,17 +1365,17 @@
         "y": 1460,
         "wires": [
             [
-                "0f0f0de480e1bfa0"
+                "ded868b93d7b5aa1"
             ]
         ]
     },
     {
-        "id": "0f0f0de480e1bfa0",
+        "id": "ded868b93d7b5aa1",
         "type": "debug",
-        "z": "b3992304f85322cf",
-        "g": "4dfa38dcbcd8952b",
+        "z": "ff1940bf5cf0e080",
+        "g": "d75e394c65d1b31f",
         "name": "Payload Switch",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -1782,10 +1388,10 @@
         "wires": []
     },
     {
-        "id": "c440da5f8beebe43",
+        "id": "b031c63868ae1c57",
         "type": "function",
-        "z": "b3992304f85322cf",
-        "g": "4dfa38dcbcd8952b",
+        "z": "ff1940bf5cf0e080",
+        "g": "d75e394c65d1b31f",
         "name": "1 Year",
         "func": "// Ambil data dari msg.payload\nvar select = \"1year\";\n\n// Simpan data ke variabel global\nglobal.set(\"interval_selected\", select);\n\nmsg.payload = {\n    set_interval:select,\n};\nreturn msg;",
         "outputs": 1,
@@ -1798,71 +1404,16 @@
         "y": 1520,
         "wires": [
             [
-                "0f0f0de480e1bfa0"
+                "ded868b93d7b5aa1"
             ]
         ]
     },
     {
-        "id": "3cb83efd9ad90a8e",
-        "type": "function",
-        "z": "b3992304f85322cf",
-        "name": "Filtering",
-        "func": "// Ambil data dari variabel global\nvar id_selected = global.get(\"id_selected\");\nvar interval_selected = global.get(\"interval_selected\");\n\nvar data = msg.payload;\n\n// Filter data untuk sensor_id\nvar filteredData = data.filter(item => item.sensor_id === id_selected);\n\n// Mendapatkan tanggal dan waktu saat ini\nvar now = new Date();\n\n// Fungsi untuk menghitung rata-rata suhu dan kelembapan per jam\nfunction aggregateHourlyData(data) {\n    var groupedData = Array(24).fill().map(() => ({ sumTemp: 0, sumHumid: 0, count: 0 }));\n    \n    // Mendapatkan batas waktu untuk filter data\n    var startDate = new Date(now.getTime() - 24 * 60 * 60 * 1000); // 24 jam terakhir\n\n    // Filter data berdasarkan tanggal\n    data = data.filter(item => new Date(item.timestamp) >= startDate);\n\n    // Kelompokkan data per jam\n    data.forEach(item => {\n        var date = new Date(item.timestamp);\n        var hour = date.getHours();\n        \n        // Kelompokkan data berdasarkan jam\n        if (date >= startDate) {\n            groupedData[hour].sumTemp += item.val1;\n            groupedData[hour].sumHumid += item.val2;\n            groupedData[hour].count += 1;\n        }\n    });\n\n    // Hitung rata-rata per jam\n    var result = groupedData.map(hourData => ({\n        avgTemp: hourData.count ? (hourData.sumTemp / hourData.count) : 0,\n        avgHumid: hourData.count ? (hourData.sumHumid / hourData.count) : 0\n    }));\n    \n    return result;\n}\n\n\n// Fungsi untuk menghitung rata-rata suhu dan kelembapan per seperempat hari\nfunction aggregateQuarterlyData(data) {\n    var groupedData = Array(28).fill().map(() => ({ sumTemp: 0, sumHumid: 0, count: 0 }));\n    \n    // Mendapatkan batas waktu untuk filter data\n    var startDate = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000); // 7 hari terakhir\n\n    // Filter data berdasarkan tanggal\n    data = data.filter(item => new Date(item.timestamp) >= startDate);\n\n    // Kelompokkan data per seperempat hari\n    data.forEach(item => {\n        var date = new Date(item.timestamp);\n        var dayIndex = Math.floor((date.getTime() - startDate.getTime()) / (24 * 60 * 60 * 1000)); // Hitung hari ke-i\n        var quarterIndex = Math.floor(date.getHours() / 6); // Hitung seperempat hari (0-3)\n        var index = dayIndex * 4 + quarterIndex; // Hitung index untuk grup\n        \n        if (index >= 0 && index < groupedData.length) {\n            groupedData[index].sumTemp += item.val1;\n            groupedData[index].sumHumid += item.val2;\n            groupedData[index].count += 1;\n        }\n    });\n\n    // Hitung rata-rata per seperempat hari\n    var result = groupedData.map(quarterData => ({\n        avgTemp: quarterData.count ? (quarterData.sumTemp / quarterData.count) : 0,\n        avgHumid: quarterData.count ? (quarterData.sumHumid / quarterData.count) : 0\n    }));\n    \n    return result;\n}\n\n\n// Proses data dengan interval 1 hari\nif (interval_selected === '1day') {\n    msg.payload = aggregateHourlyData(filteredData);\n} else if (interval_selected === '1week') {\n    msg.payload = aggregateQuarterlyData(filteredData); \n}else {\n    msg.payload = filteredData; // Jika bukan interval 'day', tidak melakukan perubahan\n}\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 520,
-        "y": 1460,
-        "wires": [
-            [
-                "a1a8b5f6288ebc60"
-            ]
-        ]
-    },
-    {
-        "id": "a1a8b5f6288ebc60",
-        "type": "function",
-        "z": "b3992304f85322cf",
-        "name": "function 5",
-        "func": "var value = msg.payload;\nvar interval_selected = global.get(\"interval_selected\");\n\n// Mendapatkan waktu saat ini\nvar now = new Date();\n\n// Inisialisasi array dengan ukuran 24 elemen\nvar resultArray = [];\nvar startDate;\nvar intervalHours = 1;\n\n// Menentukan batas waktu dan ukuran array berdasarkan interval\nif (interval_selected === '1day') {\n    // Untuk interval 1 hari, buat array dengan 24 elemen (satu untuk setiap jam)\n    startDate = new Date(now.getTime() - 24 * 60 * 60 * 1000); // 24 jam terakhir\n\n    // Mengisi array dengan waktu dari 24 jam terakhir hingga waktu saat ini\n    for (var i = 0; i < 24; i++) {\n        var timeLabel = new Date(startDate.getTime() + i * 60 * 60 * 1000);\n        resultArray.push({\n            time: timeLabel.toISOString(), // Format waktu ISO\n        });\n    }\n}\n\n// Mengembalikan data dalam bentuk objek payload\nmsg.payload = {\n    y: value,\n    x: resultArray,\n    interval_selected: interval_selected\n};\n\nreturn msg;\n\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 660,
-        "y": 1560,
-        "wires": [
-            [
-                "a6528462bc5d7d8d"
-            ]
-        ]
-    },
-    {
-        "id": "0eb670e639a15b64",
+        "id": "380f761c3fe2f48e",
         "type": "debug",
-        "z": "b3992304f85322cf",
+        "z": "ff1940bf5cf0e080",
+        "g": "46af7f6f3c6f7b09",
         "name": "debug 8",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 500,
-        "y": 1180,
-        "wires": []
-    },
-    {
-        "id": "84449f5ba4326cdd",
-        "type": "debug",
-        "z": "b3992304f85322cf",
-        "name": "debug 9",
         "active": true,
         "tosidebar": true,
         "console": false,
@@ -1871,50 +1422,1557 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 880,
-        "y": 1660,
+        "x": 940,
+        "y": 1920,
         "wires": []
     },
     {
-        "id": "a6528462bc5d7d8d",
+        "id": "da9bd9ac8870f99a",
+        "type": "inject",
+        "z": "ff1940bf5cf0e080",
+        "g": "46af7f6f3c6f7b09",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 1720,
+        "wires": [
+            [
+                "917d1c79994ee185"
+            ]
+        ]
+    },
+    {
+        "id": "917d1c79994ee185",
         "type": "function",
-        "z": "b3992304f85322cf",
-        "name": "Payload To Database",
-        "func": "msg.payload;\nmsg.payload =\n    {\n        series: [\"Temperature\", \"Humidity\"],\n        data: [\n            msg.payload.y.map(entry => ({y: entry.avgTemp })),\n            msg.payload.y.map(entry => ({ y: entry.avgHumid }))\n        ],\n        labels: msg.payload.x.map(entry => new Date(entry.time))\n    };\n\nreturn msg;",
+        "z": "ff1940bf5cf0e080",
+        "g": "46af7f6f3c6f7b09",
+        "name": "Read Sensor",
+        "func": "// Ambil interval_selected dari variabel global\nvar interval_selected = global.get(\"interval_selected\");\n\n// Bangun query SQL berdasarkan interval_selected\nlet query = \"SELECT sensor_id, timestamp, val1, val2 FROM Value WHERE timestamp >= NOW()\";\n\n// Sesuaikan query berdasarkan interval_selected\nswitch (interval_selected) {\n    case '1day':\n        query += \" - INTERVAL 1 DAY\";\n        break;\n    case '1week':\n        query += \" - INTERVAL 1 WEEK\";\n        break;\n    case '1month':\n        query += \" - INTERVAL 1 MONTH\";\n        break;\n    case '1year':\n        query += \" - INTERVAL 1 YEAR\";\n        break;\n    default:\n        query += \" - INTERVAL 1 DAY\"; // Default ke 1 hari jika interval tidak dikenali\n        break;\n}\n\nquery += \" ORDER BY timestamp DESC\";\n\n// Atur topic dengan query yang telah dibangun\nmsg.topic = query;\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 860,
-        "y": 1580,
+        "x": 350,
+        "y": 1720,
         "wires": [
             [
-                "84449f5ba4326cdd",
-                "59a31997eca78017"
+                "e02c5ce57f5acf3a"
             ]
         ]
     },
     {
-        "id": "59a31997eca78017",
-        "type": "ui_template",
-        "z": "b3992304f85322cf",
-        "group": "4be9e04c9c51f3fc",
+        "id": "e02c5ce57f5acf3a",
+        "type": "mysql",
+        "z": "ff1940bf5cf0e080",
+        "g": "46af7f6f3c6f7b09",
+        "mydb": "03fa6e045770563b",
+        "name": "Database",
+        "x": 560,
+        "y": 1720,
+        "wires": [
+            [
+                "ef6a34bfc5edc792",
+                "8e535299a2b30a64",
+                "4838162f2d183a0c",
+                "417a3dd5dc32670b",
+                "380f761c3fe2f48e"
+            ]
+        ]
+    },
+    {
+        "id": "ef6a34bfc5edc792",
+        "type": "function",
+        "z": "ff1940bf5cf0e080",
+        "g": "46af7f6f3c6f7b09",
+        "name": "Chart",
+        "func": "var id_selected = global.get(\"id_selected\"); // Ambil id_selected dari global context\nvar interval_selected = global.get(\"interval_selected\"); // Ambil interval_selected dari global context\n\nlet chartDataVal1 = [];\nlet chartDataVal2 = [];\nlet labels = [];\n\n// Buat objek untuk menyimpan data sesuai dengan interval\nlet intervalData = {};\n\n// Dapatkan waktu saat ini\nlet now = new Date();\nnow.setMinutes(0, 0, 0); // Setel menit dan detik ke 0 untuk keakuratan per interval\n\n// Tentukan jumlah interval dan intervalMs berdasarkan interval_selected\nlet numIntervals;\nlet intervalMs;\nlet formatOptions;\n\nswitch (interval_selected) {\n    case '1day':\n        numIntervals = 24; // 24 interval per hari\n        intervalMs = 60 * 60 * 1000; // 1 jam\n        formatOptions = { hour: 'numeric', hour12: false };\n        break;\n    case '1week':\n        numIntervals = 28; // 4 interval per hari * 7 hari = 28 interval\n        intervalMs = 6 * 60 * 60 * 1000; // 6 jam\n        formatOptions = { day: 'numeric', hour: 'numeric', hour12: false };\n        break;\n    case '1month':\n        numIntervals = 31; // 30-31 interval (asumsi 30 hari dalam sebulan)\n        intervalMs = 24 * 60 * 60 * 1000; // 1 hari\n        formatOptions = { day: 'numeric' }; // Menampilkan hanya hari untuk setiap hari dalam sebulan\n        break;\n    case '1year':\n        numIntervals = 12; // 12 interval (1 per bulan)\n        intervalMs = 30 * 24 * 60 * 60 * 1000; // 1 bulan\n        formatOptions = { month: 'short', year: 'numeric' }; // Menampilkan hanya bulan dan tahun\n        break;\n    default:\n        numIntervals = 24;\n        intervalMs = 60 * 60 * 1000; // Default ke 1 hari\n        formatOptions = { hour: 'numeric', hour12: false };\n        break;\n}\n\n// Buat array labels sesuai dengan interval yang dipilih\nfor (let i = 0; i < numIntervals; i++) {\n    let currentInterval = new Date(now.getTime() - i * intervalMs); // Kurangi sesuai intervalMs\n    let intervalLabel = currentInterval.toLocaleString('en-US', formatOptions);\n\n    // Tambahkan label dan inisialisasi data dengan null untuk setiap interval\n    labels.unshift(intervalLabel); // Tambahkan ke awal array untuk mengurutkan dari duluan ke sekarang\n    intervalData[intervalLabel] = {\n        timestamp: intervalLabel,\n        valuesVal1: [], // Array untuk menyimpan semua nilai val1 di interval ini\n        valuesVal2: []  // Array untuk menyimpan semua nilai val2 di interval ini\n    };\n}\n\n// Loop melalui hasil query dari database dan filter berdasarkan id_selected\nmsg.payload.forEach(row => {\n    let dateObj = new Date(row.timestamp);\n    let intervalLabel = dateObj.toLocaleString('en-US', formatOptions);\n\n    // Filter data berdasarkan id_selected\n    if (row.sensor_id === id_selected && intervalData[intervalLabel]) {\n        intervalData[intervalLabel].valuesVal1.push(row.val1);\n        intervalData[intervalLabel].valuesVal2.push(row.val2);\n    }\n});\n\n// Proses intervalData untuk mengambil satu nilai per interval (misalnya rata-rata)\nlabels.forEach(intervalLabel => {\n    let dataForIntervalVal1 = intervalData[intervalLabel].valuesVal1;\n    let dataForIntervalVal2 = intervalData[intervalLabel].valuesVal2;\n\n    // Untuk val1\n    if (dataForIntervalVal1.length > 0) {\n        // Hitung rata-rata dari data yang ada di interval ini untuk val1\n        let averageValueVal1 = dataForIntervalVal1.reduce((a, b) => a + b, 0) / dataForIntervalVal1.length;\n\n        // Tambahkan ke chartData untuk val1\n        chartDataVal1.push({\n            x: intervalLabel,\n            y: averageValueVal1\n        });\n    } else {\n        // Jika tidak ada data di interval ini, tambahkan null untuk menjaga konsistensi chart\n        chartDataVal1.push({\n            x: intervalLabel,\n            y: null\n        });\n    }\n\n    // Untuk val2\n    if (dataForIntervalVal2.length > 0) {\n        // Hitung rata-rata dari data yang ada di interval ini untuk val2\n        let averageValueVal2 = dataForIntervalVal2.reduce((a, b) => a + b, 0) / dataForIntervalVal2.length;\n\n        // Tambahkan ke chartData untuk val2\n        chartDataVal2.push({\n            x: intervalLabel,\n            y: averageValueVal2\n        });\n    } else {\n        // Jika tidak ada data di interval ini, tambahkan null untuk menjaga konsistensi chart\n        chartDataVal2.push({\n            x: intervalLabel,\n            y: null\n        });\n    }\n});\n\n// Data untuk chart\n// Membuat label sensor secara dinamis\nlet sensor_label = `Sensor ${id_selected}`;\nlet interval_label = interval_selected.replace('1', '1 '); // Ubah format interval_label jika diperlukan\n\n// Format untuk ui_chart di Node-RED\nmsg.payload = {\n    series: [\"Val1\", \"Val2\"],\n    data: [chartDataVal1, chartDataVal2],\n    labels: [labels, sensor_label, interval_label],\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 6,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 1720,
+        "wires": [
+            [
+                "1a855fd148b6941c",
+                "d026aa4a3c0113ae"
+            ]
+        ]
+    },
+    {
+        "id": "1a855fd148b6941c",
+        "type": "ui-template",
+        "z": "ff1940bf5cf0e080",
+        "g": "46af7f6f3c6f7b09",
+        "group": "d6aaeb026456f462",
+        "page": "",
+        "ui": "",
+        "name": "Statistic",
+        "order": 4,
+        "width": "6",
+        "height": "6",
+        "head": "",
+        "format": "<template>\n  <v-card\n    class=\"mx-auto\"\n    width=\"100%\"\n    hover\n  >\n   <canvas class= \"d-flex justify-center position-relative\" id=\"goodCanvas1\" width=\"1000\" height=\"800\" aria-label=\"Hello ARIA World\" role=\"img\" ref=\"chart\" />\n  </v-card>\n</template>\n\n<script src=\"https://cdn.jsdelivr.net/npm/chart.js\"></script>\n\n<script>\n   export default {\n    data () {\n\n        return {\n            data : null,\n            sensor_labels : null,\n            data1 : []\n        }\n    },\n    mounted() {\n            // register a listener for incoming data\n            this.$socket.on('msg-input:' + this.id, this.onInput)\n\n            // check with ChartJS has loaded\n            let interval = setInterval(() => {\n                if (window.Chart) {\n                    // clear the check for ChartJS\n                    clearInterval(interval);\n                    // draw our initial chart\n                    this.draw()\n                }\n            }, 100);\n        },\n        methods: {\n            draw () {\n                // get reference to the <canvas /> element\n                const ctx = this.$refs.chart\n                const xValues = []\n                const yValues = []\n                const y2Values = []\n                const y3Values = []\n                // Render the chart\n                const chart = new Chart(ctx, {\n                    type: 'line',\n                    data: {\n                        labels: xValues,\n                        datasets: [\n                        {\n                            data: yValues,\n                            label: 'Temperature',\n                            fill: true,\n                            borderWidth: 1\n                            \n                        },\n                        {\n                            data: y2Values,\n                            label: 'Humidity',\n                            fill: true,\n                            borderWidth: 1\n                            \n                        }\n                        ]\n                    },\n                    options: {\n                        animation: false,\n                        // don't run the animation for incoming data\n                        responsive: true, // ensure we auto-resize the content\n                        plugins: {\n                            legend: {\n                                position: 'top',\n                            },\n                            title: {\n                                display: true,\n                                text: 'Chart.js Line Chart'\n                            }\n                        },\n                        scales: {\n                            x: {\n                                display: true,\n                                title: {\n                                display: true,\n                                text: 'Time',\n                                // color: '#911',\n                                font: {\n                                    // family: 'Comic Sans MS',\n                                    size: 12,\n                                    // weight: 'bold',\n                                    lineHeight: 1.2,\n                                },\n                                padding: {top: 10, left: 0, right: 0, bottom: 0}\n                                }\n                            },\n                            y: {\n                                display: true,\n                                title: {\n                                display: true,\n                                text: 'Value',\n                                // color: '#191',\n                                font: {\n                                    // family: 'Times',\n                                    size: 12,\n                                    // style: 'normal',\n                                    // lineHeight: 1.2\n                                },\n                                padding: {top: 10, left: 0, right: 0, bottom: 0}\n                                }\n                            }\n                        }   \n                    },\n                });\n                // make this available to all elements of the component\n                this.chart = chart\n            },\n            onInput (msg) {\n                // Struktur data dari payload\n                const { data } = msg.payload;\n\n                this.chart.options.plugins.title.text = this.sensor_labels || 'Default Title';\n                \n                //mapping\n                this.data1= data[0].map(item => item.x);\n                this.data2= data[0].map(item => item.y);\n                this.data3= data[1].map(item => item.y);\n                \n                const xValues = this.data1;\n                const yValues = this.data2;\n                const y2Values = this.data3;\n\n                this.chart.data.labels = xValues;\n                \n                //Change Chart\n                this.chart.data.datasets[0].data = yValues; \n                this.chart.data.datasets[1].data = y2Values;\n                // ensure the chart re-renders\n                this.chart.update()      \n            }\n        },\n    watch:{\n      msg: function(){\n        if (this.msg.payload != undefined){\n          this.data = this.msg.payload.data,\n          this.sensor_labels = this.msg.payload.labels[1]\n\n        }\n      }\n    }\n  }\n</script>",
+        "storeOutMessages": true,
+        "passthru": false,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 960,
+        "y": 1780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "568d7767b24eaece",
+        "type": "ui-dropdown",
+        "z": "ff1940bf5cf0e080",
+        "g": "5c9d9379fe106075",
+        "group": "d6aaeb026456f462",
         "name": "",
-        "order": 6,
+        "label": "Interval",
+        "tooltip": "",
+        "order": 3,
+        "width": "1",
+        "height": "1",
+        "passthru": true,
+        "multiple": false,
+        "chips": false,
+        "clearable": false,
+        "options": [
+            {
+                "label": "/Day",
+                "value": "1D",
+                "type": "str"
+            },
+            {
+                "label": "/Week",
+                "value": "1W",
+                "type": "str"
+            },
+            {
+                "label": "/Month",
+                "value": "1M",
+                "type": "str"
+            },
+            {
+                "label": "/Year",
+                "value": "1Y",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "typeIsComboBox": true,
+        "x": 1260,
+        "y": 1740,
+        "wires": [
+            [
+                "98b755e0aa409565"
+            ]
+        ]
+    },
+    {
+        "id": "98b755e0aa409565",
+        "type": "switch",
+        "z": "ff1940bf5cf0e080",
+        "g": "5c9d9379fe106075",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1D",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "1W",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "1M",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "1Y",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 1450,
+        "y": 1740,
+        "wires": [
+            [
+                "515ed6c0a55f5d6d"
+            ],
+            [
+                "ea42a4be0476a6c3"
+            ],
+            [
+                "6e54ddf7643812da"
+            ],
+            [
+                "132fbe38abc466c4"
+            ]
+        ]
+    },
+    {
+        "id": "515ed6c0a55f5d6d",
+        "type": "function",
+        "z": "ff1940bf5cf0e080",
+        "g": "5c9d9379fe106075",
+        "name": "1 Day",
+        "func": "// Ambil data dari msg.payload\nvar select = \"1day\";\n\n// Simpan data ke variabel global\nglobal.set(\"interval_selected\", select);\n\nmsg.payload = {\n    set_interval:select,\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1640,
+        "y": 1700,
+        "wires": [
+            [
+                "1da56eda112f589d"
+            ]
+        ]
+    },
+    {
+        "id": "ea42a4be0476a6c3",
+        "type": "function",
+        "z": "ff1940bf5cf0e080",
+        "g": "5c9d9379fe106075",
+        "name": "1 Week",
+        "func": "// Ambil data dari msg.payload\nvar select = \"1week\";\n\n// Simpan data ke variabel global\nglobal.set(\"interval_selected\", select);\n\nmsg.payload = {\n    set_interval:select,\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1650,
+        "y": 1740,
+        "wires": [
+            [
+                "1da56eda112f589d"
+            ]
+        ]
+    },
+    {
+        "id": "6e54ddf7643812da",
+        "type": "function",
+        "z": "ff1940bf5cf0e080",
+        "g": "5c9d9379fe106075",
+        "name": "1 Month",
+        "func": "// Ambil data dari msg.payload\nvar select = \"1month\";\n\n// Simpan data ke variabel global\nglobal.set(\"interval_selected\", select);\n\nmsg.payload = {\n    set_interval:select,\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1650,
+        "y": 1780,
+        "wires": [
+            [
+                "1da56eda112f589d"
+            ]
+        ]
+    },
+    {
+        "id": "1da56eda112f589d",
+        "type": "debug",
+        "z": "ff1940bf5cf0e080",
+        "g": "5c9d9379fe106075",
+        "name": "Payload Switch",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1860,
+        "y": 1740,
+        "wires": []
+    },
+    {
+        "id": "132fbe38abc466c4",
+        "type": "function",
+        "z": "ff1940bf5cf0e080",
+        "g": "5c9d9379fe106075",
+        "name": "1 Year",
+        "func": "// Ambil data dari msg.payload\nvar select = \"1year\";\n\n// Simpan data ke variabel global\nglobal.set(\"interval_selected\", select);\n\nmsg.payload = {\n    set_interval:select,\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1650,
+        "y": 1840,
+        "wires": [
+            [
+                "1da56eda112f589d"
+            ]
+        ]
+    },
+    {
+        "id": "fe5a7252f667709e",
+        "type": "switch",
+        "z": "ff1940bf5cf0e080",
+        "g": "549c90febe12d02e",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "sensor1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "sensor2",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "sensor3",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 1470,
+        "y": 1980,
+        "wires": [
+            [
+                "cab7ac21bd90ca0a"
+            ],
+            [
+                "61b532c46ce92a66"
+            ],
+            [
+                "0825c4c584150c26"
+            ]
+        ]
+    },
+    {
+        "id": "cab7ac21bd90ca0a",
+        "type": "function",
+        "z": "ff1940bf5cf0e080",
+        "g": "549c90febe12d02e",
+        "name": "Sensor 1",
+        "func": "// Ambil data dari msg.payload\nvar select = 1;\n\n// Simpan data ke variabel global\nglobal.set(\"id_selected\", select);\n\nmsg.payload = {\n    id_selected:select,\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1670,
+        "y": 1940,
+        "wires": [
+            [
+                "db9bcfe6e6f972a2"
+            ]
+        ]
+    },
+    {
+        "id": "61b532c46ce92a66",
+        "type": "function",
+        "z": "ff1940bf5cf0e080",
+        "g": "549c90febe12d02e",
+        "name": "Sensor 2",
+        "func": "// Ambil data dari msg.payload\nvar select = 2;\n\n// Simpan data ke variabel global\nglobal.set(\"id_selected\", select);\n\nmsg.payload = {\n    id:select,\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1670,
+        "y": 1980,
+        "wires": [
+            [
+                "db9bcfe6e6f972a2"
+            ]
+        ]
+    },
+    {
+        "id": "0825c4c584150c26",
+        "type": "function",
+        "z": "ff1940bf5cf0e080",
+        "g": "549c90febe12d02e",
+        "name": "Sensor 3",
+        "func": "// Ambil data dari msg.payload\nvar select = 3;\n\n// Simpan data ke variabel global\nglobal.set(\"id_selected\", select);\n\nmsg.payload = {\n    id:select,\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1670,
+        "y": 2020,
+        "wires": [
+            [
+                "db9bcfe6e6f972a2"
+            ]
+        ]
+    },
+    {
+        "id": "db9bcfe6e6f972a2",
+        "type": "debug",
+        "z": "ff1940bf5cf0e080",
+        "g": "549c90febe12d02e",
+        "name": "Payload Switch",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1880,
+        "y": 1980,
+        "wires": []
+    },
+    {
+        "id": "2ad58ece62d3c370",
+        "type": "ui-dropdown",
+        "z": "ff1940bf5cf0e080",
+        "g": "549c90febe12d02e",
+        "group": "d6aaeb026456f462",
+        "name": "",
+        "label": "Sensor",
+        "tooltip": "",
+        "order": 2,
+        "width": "1",
+        "height": "1",
+        "passthru": true,
+        "multiple": false,
+        "chips": false,
+        "clearable": false,
+        "options": [
+            {
+                "label": "Sensor 1",
+                "value": "sensor1",
+                "type": "str"
+            },
+            {
+                "label": "Sensor 2",
+                "value": "sensor2",
+                "type": "str"
+            },
+            {
+                "label": "Sensor 3",
+                "value": "sensor3",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "typeIsComboBox": true,
+        "x": 1260,
+        "y": 1980,
+        "wires": [
+            [
+                "fe5a7252f667709e"
+            ]
+        ]
+    },
+    {
+        "id": "5cc7cada78440187",
+        "type": "ui_template",
+        "z": "ff1940bf5cf0e080",
+        "g": "5c9d9379fe106075",
+        "group": "2edf52e4c2e84a2c",
+        "name": "",
+        "order": 0,
         "width": 0,
         "height": 0,
-        "format": "<div class=\"chart-box\">\n  <a>Statistic</a>\n  <div class=\"chart-box-chart\">\n    <canvas id=\"myChart\" width=\"200\" height=\"100\"></canvas>\n    <script>\n      (function(scope) {\n                var myChart;\n\n                // Inisialisasi chart hanya sekali\n                var ctx = document.getElementById('myChart').getContext('2d');\n                myChart = new Chart(ctx, {\n                    type: 'line',\n                    data: {\n                        labels: [], // Inisialisasi dengan array kosong\n                        datasets: [\n                            {\n                                label: 'Temperature',\n                                data: [],\n                                borderColor: 'rgba(255, 99, 132, 1)',\n                                backgroundColor: 'rgba(255, 99, 132, 0.2)',\n                                borderWidth: 1\n                            },\n                            {\n                                label: 'Humidity',\n                                data: [],\n                                borderColor: 'rgba(54, 162, 235, 1)',\n                                backgroundColor: 'rgba(54, 162, 235, 0.2)',\n                                borderWidth: 1\n                            }\n                        ]\n                    },\n                    options: {\n                        scales: {\n                            x: {\n                                reverse: false // Membalikkan sumbu x\n                            },\n                            y: {\n                                beginAtZero: true\n                            }\n                        },\n                        plugins: {\n                            legend: {\n                                display: true,\n                                labels: {\n                                    color: 'black' // Warna teks legend\n                                }\n                            }\n                        }\n                    }\n                });\n\n                // Watch untuk memantau perubahan data di msg.payload\n                scope.$watch('msg.payload', function(data) {\n                    if (data) {\n                        // Ambil data array dari msg.payload\n                        var temperatures = data.data[0].map(entry => entry.y); // Data temperature\n                        var humidities = data.data[1].map(entry => entry.y); // Data humidity\n                        var timestamps = data.labels; // Labels untuk waktu\n                        // timestamps.reverse();\n                        var firstElement = timestamps.shift();\n                        \n                        // Tambahkan elemen pertama tersebut menjadi elemen terakhir\n                        timestamps.push(firstElement);\n                    \n                        timestamps.shift();\n            \n            \n                        \n            \n\n                        // Konversi timestamps menjadi format waktu\n                        var timeLabels = timestamps.map(function(ts) {\n                            var dateObj = new Date(ts); // Konversi timestamp ke Date object\n                            return dateObj.toLocaleTimeString('en-US', { hour12: false }); // Hanya ambil waktu\n                        });\n\n                        // Update data chart dengan data baru\n                        myChart.data.labels = timeLabels; // Gunakan waktu sebagai label\n                        myChart.data.datasets[0].data = temperatures; // Data untuk temperature\n                        myChart.data.datasets[1].data = humidities; // Data untuk humidity\n\n                        // Refresh chart untuk menampilkan data yang baru\n                        myChart.update();\n                    }\n                });\n            })(scope);\n    </script>\n  </div>\n</div>\n\n<style>\n  .chart-box {\n    font-size: 1.5rem;\n    font-weight: bold;\n    color: black;\n    height: 350px;\n    width: 600px;\n    border-radius: 10px;\n    padding: 10px;\n    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n    text-align: left;\n  }\n\n  .chart-box-chart {\n    margin-top: 5%;\n    width: 600px;\n    align-items: center;\n  }\n</style>",
+        "format": "",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 1240,
-        "y": 1680,
+        "x": 1260,
+        "y": 1800,
         "wires": [
             []
         ]
+    },
+    {
+        "id": "f457f3b8f8dfa3f6",
+        "type": "ui-template",
+        "z": "ff1940bf5cf0e080",
+        "group": "d6aaeb026456f462",
+        "page": "",
+        "ui": "",
+        "name": "Title",
+        "order": 1,
+        "width": "4",
+        "height": "1",
+        "head": "",
+        "format": "",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1250,
+        "y": 2140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "12a1a4acf62e48c5",
+        "type": "ui-template",
+        "z": "ff1940bf5cf0e080",
+        "g": "08b3c61a87d9ac04",
+        "group": "cc274a3323a2870a",
+        "page": "",
+        "ui": "",
+        "name": "",
+        "order": 2,
+        "width": "3",
+        "height": "1",
+        "head": "",
+        "format": "<template>\n  <v-card\n    class=\"mx-auto\"\n    width=\"100%\"\n    hover\n  >\n    <v-card-item>\n      <v-card-title>\n        {{sensor_name}}   <v-icon class=\"blinking-icon top-right-icon\">mdi-record-circle</v-icon> <!-- Gantikan append-icon dengan v-icon -->\n      </v-card-title>\n\n      <v-card-subtitle>\n        {{subtitle}}\n      </v-card-subtitle>\n    </v-card-item>\n\n    <v-card-text>\n      <v-row class=\"d-flex justify-center align-center text-body-1\">\n        <v-col class=\"d-flex justify-center \">\n          <p>{{title1}}</p>\n        </v-col>\n        <v-col class=\"d-flex justify-center\">\n          <p>{{title2}}</p>\n        </v-col>\n      </v-row>\n      <v-row class=\"d-flex justify-center align-center\">\n        <v-col class=\"d-flex justify-center text-h2 position-relative\" cols=\"6\">\n          <!-- Ikon di kiri atas dengan ukuran lebih kecil -->\n          <v-icon class=\" small-icon\">mdi-thermometer</v-icon>\n          {{value1}}°F\n        </v-col>\n        <v-col class=\"d-flex justify-center text-h2 position-relative\" cols=\"6\">\n          <!-- Ikon di kiri atas dengan ukuran lebih kecil -->\n          <v-icon class=\"small-icon\">mdi-water-percent</v-icon>\n          {{value2}}%\n        </v-col>\n      </v-row>\n\n    </v-card-text>\n  </v-card>\n</template>\n<style>\n.top-left-icon {\n  position: absolute;\n  top: 0;\n  left: 0;\n  margin: 8px; /* Jarak dari tepi kiri dan atas */\n}\n.top-right-icon {\n  position: absolute;\n  top: 0;\n  right: 0;\n  margin: 8px; /* Jarak dari tepi kiri dan atas */\n}\n.buttom-right-icon {\nposition: absolute;\nbuttom: 0;\nright: 0;\nmargin: 8px; /* Jarak dari tepi kiri dan atas */\n}\n\n.small-icon {\n  font-size: 20px; /* Ukuran lebih kecil untuk ikon */\n}\n.blinking-icon {\n  animation: blink 1s infinite; /* Animasi berkedip */\n  color: red; /* Warna awal merah */\n}\n\n@keyframes blink {\n  0%, 100% {\n    color: red;\n  }\n  50% {\n    color: white;\n  }\n</style>\n\n<script>\nexport default {\n  data() {\n    return {\n      sensor_name: null,\n      subtitle: null,\n      title1: null,\n      title2: null,\n      value1: null,\n      value2: null\n    }\n  },\n  watch: {\n    msg: function(){\n        if (this.msg.payload != undefined){\n          this.sensor_name = `Sensor ID ${this.msg.payload.sensor_id}`;\n          this.subtitle = \"Normall\";\n          this.title1 = \"Temperature\";\n          this.title2 = \"Humidity\";\n          this.value1 = this.msg.payload.val1;\n          this.value2 = this.msg.payload.val2;\n        }\n        }\n  },\n  methods: {\n  },\n  mounted() {\n  }\n};\n</script>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 880,
+        "y": 2180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2769ae311f6fb8b0",
+        "type": "ui-template",
+        "z": "ff1940bf5cf0e080",
+        "g": "08b3c61a87d9ac04",
+        "group": "cc274a3323a2870a",
+        "page": "",
+        "ui": "",
+        "name": "",
+        "order": 3,
+        "width": "3",
+        "height": "1",
+        "head": "",
+        "format": "<template>\n  <v-card\n    class=\"mx-auto\"\n    width=\"100%\"\n    hover\n  >\n    <v-card-item>\n      <v-card-title>\n        {{sensor_name}}   <v-icon class=\"blinking-icon top-right-icon\">mdi-record-circle</v-icon> <!-- Gantikan append-icon dengan v-icon -->\n      </v-card-title>\n\n      <v-card-subtitle>\n        {{subtitle}}\n      </v-card-subtitle>\n    </v-card-item>\n\n    <v-card-text>\n      <v-row class=\"d-flex justify-center align-center text-body-1\">\n        <v-col class=\"d-flex justify-center \">\n          <p>{{title1}}</p>\n        </v-col>\n        <v-col class=\"d-flex justify-center\">\n          <p>{{title2}}</p>\n        </v-col>\n      </v-row>\n      <v-row class=\"d-flex justify-center align-center\">\n        <v-col class=\"d-flex justify-center text-h2 position-relative\" cols=\"6\">\n          <!-- Ikon di kiri atas dengan ukuran lebih kecil -->\n          <v-icon class=\" small-icon\">mdi-thermometer</v-icon>\n          {{value1}}°F\n        </v-col>\n        <v-col class=\"d-flex justify-center text-h2 position-relative\" cols=\"6\">\n          <!-- Ikon di kiri atas dengan ukuran lebih kecil -->\n          <v-icon class=\"small-icon\">mdi-water-percent</v-icon>\n          {{value2}}%\n        </v-col>\n      </v-row>\n\n    </v-card-text>\n  </v-card>\n</template>\n<style>\n.top-left-icon {\n  position: absolute;\n  top: 0;\n  left: 0;\n  margin: 8px; /* Jarak dari tepi kiri dan atas */\n}\n.top-right-icon {\n  position: absolute;\n  top: 0;\n  right: 0;\n  margin: 8px; /* Jarak dari tepi kiri dan atas */\n}\n.buttom-right-icon {\nposition: absolute;\nbuttom: 0;\nright: 0;\nmargin: 8px; /* Jarak dari tepi kiri dan atas */\n}\n\n.small-icon {\n  font-size: 20px; /* Ukuran lebih kecil untuk ikon */\n}\n.blinking-icon {\n  animation: blink 1s infinite; /* Animasi berkedip */\n  color: red; /* Warna awal merah */\n}\n\n@keyframes blink {\n  0%, 100% {\n    color: red;\n  }\n  50% {\n    color: white;\n  }\n</style>\n\n<script>\nexport default {\n  data() {\n    return {\n      sensor_name: null,\n      subtitle: null,\n      title1: null,\n      title2: null,\n      value1: null,\n      value2: null\n    }\n  },\n  watch: {\n    msg: function(){\n        if (this.msg.payload != undefined){\n          this.sensor_name = `Sensor ID ${this.msg.payload.sensor_id}`;\n          this.subtitle = \"Normall\";\n          this.title1 = \"Temperature\";\n          this.title2 = \"Humidity\";\n          this.value1 = this.msg.payload.val1;\n          this.value2 = this.msg.payload.val2;\n        }\n        }\n  },\n  methods: {\n  },\n  mounted() {\n  }\n};\n</script>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 880,
+        "y": 2240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1f505a5ebc61467d",
+        "type": "ui-template",
+        "z": "ff1940bf5cf0e080",
+        "g": "08b3c61a87d9ac04",
+        "group": "cc274a3323a2870a",
+        "page": "",
+        "ui": "",
+        "name": "",
+        "order": 4,
+        "width": "3",
+        "height": "1",
+        "head": "",
+        "format": "<template>\n  <v-card\n    class=\"mx-auto\"\n    width=\"100%\"\n    hover\n  >\n    <v-card-item>\n      <v-card-title>\n        {{sensor_name}}   <v-icon class=\"blinking-icon top-right-icon\">mdi-record-circle</v-icon> <!-- Gantikan append-icon dengan v-icon -->\n      </v-card-title>\n\n      <v-card-subtitle>\n        {{subtitle}}\n      </v-card-subtitle>\n    </v-card-item>\n\n    <v-card-text>\n      <v-row class=\"d-flex justify-center align-center text-body-1\">\n        <v-col class=\"d-flex justify-center \">\n          <p>{{title1}}</p>\n        </v-col>\n        <v-col class=\"d-flex justify-center\">\n          <p>{{title2}}</p>\n        </v-col>\n      </v-row>\n      <v-row class=\"d-flex justify-center align-center\">\n        <v-col class=\"d-flex justify-center text-h2 position-relative\" cols=\"6\">\n          <!-- Ikon di kiri atas dengan ukuran lebih kecil -->\n          <v-icon class=\" small-icon\">mdi-thermometer</v-icon>\n          {{value1}}°F\n        </v-col>\n        <v-col class=\"d-flex justify-center text-h2 position-relative\" cols=\"6\">\n          <!-- Ikon di kiri atas dengan ukuran lebih kecil -->\n          <v-icon class=\"small-icon\">mdi-water-percent</v-icon>\n          {{value2}}%\n        </v-col>\n      </v-row>\n\n    </v-card-text>\n  </v-card>\n</template>\n<style>\n.top-left-icon {\n  position: absolute;\n  top: 0;\n  left: 0;\n  margin: 8px; /* Jarak dari tepi kiri dan atas */\n}\n.top-right-icon {\n  position: absolute;\n  top: 0;\n  right: 0;\n  margin: 8px; /* Jarak dari tepi kiri dan atas */\n}\n.buttom-right-icon {\nposition: absolute;\nbuttom: 0;\nright: 0;\nmargin: 8px; /* Jarak dari tepi kiri dan atas */\n}\n\n.small-icon {\n  font-size: 25px; /* Ukuran lebih kecil untuk ikon */\n}\n.blinking-icon {\n  animation: blink 1s infinite; /* Animasi berkedip */\n  color: red; /* Warna awal merah */\n}\n\n@keyframes blink {\n  0%, 100% {\n    color: red;\n  }\n  50% {\n    color: white;\n  }\n</style>\n\n<script>\nexport default {\n  data() {\n    return {\n      sensor_name: null,\n      subtitle: null,\n      title1: null,\n      title2: null,\n      value1: null,\n      value2: null\n    }\n  },\n  watch: {\n    msg: function(){\n        if (this.msg.payload != undefined){\n          this.sensor_name = `Sensor ID ${this.msg.payload.sensor_id}`;\n          this.subtitle = \"Normall\";\n          this.title1 = \"Temperature\";\n          this.title2 = \"Humidity\";\n          this.value1 = this.msg.payload.val1;\n          this.value2 = this.msg.payload.val2;\n        }\n        }\n  },\n  methods: {\n  },\n  mounted() {\n  }\n};\n</script>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 880,
+        "y": 2300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bc1eb994c3034c66",
+        "type": "ui-template",
+        "z": "ff1940bf5cf0e080",
+        "group": "23a56f6fce23842c",
+        "page": "",
+        "ui": "",
+        "name": "",
+        "order": 1,
+        "width": "12",
+        "height": "1",
+        "head": "",
+        "format": "<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>My Portfolio</title>\n  <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n</head>\n<body>\n\n  <!-- Navbar -->\n  <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">\n    <div class=\"container-fluid\">\n      <a class=\"navbar-brand\" href=\"#\">Portfolio</a>\n      <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n        <span class=\"navbar-toggler-icon\"></span>\n      </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n        <ul class=\"navbar-nav ms-auto\">\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" href=\"#about\">About Me</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" href=\"#projects\">Projects</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" href=\"#contact\">Contact</a>\n          </li>\n        </ul>\n      </div>\n    </div>\n  </nav>\n\n  <!-- Header -->\n  <header class=\"bg-primary text-white text-center py-5\">\n    <div class=\"container\">\n      <h1 class=\"display-4\">Welcome to My Portfolio</h1>\n      <p class=\"lead\">A showcase of my skills and projects</p>\n    </div>\n  </header>\n\n  <!-- About Me Section -->\n  <section id=\"about\" class=\"py-5\">\n    <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-lg-6\">\n          <h2>About Me</h2>\n          <p>Hello! I am [Your Name], a developer with experience in creating modern web applications.</p>\n        </div>\n        <div class=\"col-lg-6\">\n          <img src=\"https://via.placeholder.com/400\" class=\"img-fluid\" alt=\"About Image\">\n        </div>\n      </div>\n    </div>\n  </section>\n\n  <!-- Projects Section -->\n  <section id=\"projects\" class=\"bg-light py-5\">\n    <div class=\"container\">\n      <h2 class=\"text-center mb-5\">My Projects</h2>\n      <div class=\"row\">\n        <div class=\"col-lg-4 mb-4\">\n          <div class=\"card h-100\">\n            <img src=\"https://via.placeholder.com/400\" class=\"card-img-top\" alt=\"Project 1\">\n            <div class=\"card-body\">\n              <h5 class=\"card-title\">Project 1</h5>\n              <p class=\"card-text\">Description of Project 1.</p>\n            </div>\n          </div>\n        </div>\n        <div class=\"col-lg-4 mb-4\">\n          <div class=\"card h-100\">\n            <img src=\"https://via.placeholder.com/400\" class=\"card-img-top\" alt=\"Project 2\">\n            <div class=\"card-body\">\n              <h5 class=\"card-title\">Project 2</h5>\n              <p class=\"card-text\">Description of Project 2.</p>\n            </div>\n          </div>\n        </div>\n        <div class=\"col-lg-4 mb-4\">\n          <div class=\"card h-100\">\n            <img src=\"https://via.placeholder.com/400\" class=\"card-img-top\" alt=\"Project 3\">\n            <div class=\"card-body\">\n              <h5 class=\"card-title\">Project 3</h5>\n              <p class=\"card-text\">Description of Project 3.</p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n\n  <!-- Contact Section -->\n  <section id=\"contact\" class=\"py-5\">\n    <div class=\"container\">\n      <h2 class=\"text-center mb-5\">Contact Me</h2>\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-6\">\n          <form id=\"contactForm\">\n            <div class=\"mb-3\">\n              <label for=\"name\" class=\"form-label\">Name</label>\n              <input type=\"text\" class=\"form-control\" id=\"name\" required>\n            </div>\n            <div class=\"mb-3\">\n              <label for=\"email\" class=\"form-label\">Email</label>\n              <input type=\"email\" class=\"form-control\" id=\"email\" required>\n            </div>\n            <div class=\"mb-3\">\n              <label for=\"message\" class=\"form-label\">Message</label>\n              <textarea class=\"form-control\" id=\"message\" rows=\"5\" required></textarea>\n            </div>\n            <button type=\"submit\" class=\"btn btn-primary w-100\">Send Message</button>\n          </form>\n        </div>\n      </div>\n    </div>\n  </section>\n\n  <!-- Footer -->\n  <footer class=\"bg-dark text-white text-center py-4\">\n    <div class=\"container\">\n      <p>&copy; 2024 [Your Name]. All Rights Reserved.</p>\n    </div>\n  </footer>\n\n  <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js\"></script>\n</body>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1840,
+        "y": 2420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cd433976b71d8b24",
+        "type": "ui-template",
+        "z": "ff1940bf5cf0e080",
+        "group": "cc274a3323a2870a",
+        "page": "",
+        "ui": "",
+        "name": "Button",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <v-card\n    class=\"mx-auto\"\n    width=\"100%\"\n    hover\n  >\n  <v-card-item>\n      <v-card-title>\n        Box Choice\n      </v-card-title>\n\n      <v-card-subtitle>\n      Now you see box {{ buttonNumber ? buttonNumber : 'None' }}\n      </v-card-subtitle>\n    </v-card-item>\n    <!-- Menampilkan tombol mana yang terakhir ditekan -->\n    <v-card-text>\n    <v-row>\n      <!-- Empat tombol dengan label berbeda dan warna berubah saat ditekan -->\n      <v-btn :color=\"buttonNumber === 1 ? 'teal-darken-4' : 'teal-lighten-1'\" class=\"ma-1\" @click=\"buttonClicked(1)\">Button 1</v-btn>\n      <v-btn :color=\"buttonNumber === 2 ? 'teal-darken-4' : 'teal-lighten-1'\" class=\"ma-1\" @click=\"buttonClicked(2)\">Button 2</v-btn>\n      <v-btn :color=\"buttonNumber === 3 ? 'teal-darken-4' : 'teal-lighten-1'\" class=\"ma-1\" @click=\"buttonClicked(3)\">Button 3</v-btn>\n      <v-btn :color=\"buttonNumber === 4 ? 'teal-darken-4' : 'teal-lighten-1'\" class=\"ma-1\" @click=\"buttonClicked(4)\">Button 4</v-btn>\n    </v-row>\n    </v-card-text>\n  </v-card>\n</template>\n\n<script>\nexport default {\n  data() {\n    return {\n      buttonNumber: null // Variable to store the number of the clicked button\n    }\n  },\n  methods: {\n    buttonClicked(buttonNumber) {\n      this.buttonNumber = buttonNumber; // Update the button number when clicked\n      this.send({ payload: `${buttonNumber}` }); // Send the payload with button number\n    }\n  }\n}\n</script>\n\n<style>\n/* Kelas CSS untuk tombol */\n\n</style>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1630,
+        "y": 2840,
+        "wires": [
+            [
+                "99eb695762dba9b6"
+            ]
+        ]
+    },
+    {
+        "id": "99eb695762dba9b6",
+        "type": "debug",
+        "z": "ff1940bf5cf0e080",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1800,
+        "y": 2840,
+        "wires": []
+    },
+    {
+        "id": "8e535299a2b30a64",
+        "type": "function",
+        "z": "ff1940bf5cf0e080",
+        "g": "08b3c61a87d9ac04",
+        "name": "function 5",
+        "func": "let data = msg.payload;\n\n// Fungsi untuk memfilter data berdasarkan sensor_id 1\nlet filteredData = data.filter(sensor => sensor.sensor_id === 1);\n\n// Mengambil data paling akhir dari hasil filter\nlet latestData = filteredData[0];\n\n// Menyimpan data paling akhir kembali ke msg.payload\nmsg.payload = latestData;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 2180,
+        "wires": [
+            [
+                "12a1a4acf62e48c5",
+                "e39e5f41050deee8"
+            ]
+        ]
+    },
+    {
+        "id": "4838162f2d183a0c",
+        "type": "function",
+        "z": "ff1940bf5cf0e080",
+        "g": "08b3c61a87d9ac04",
+        "name": "function 6",
+        "func": "let data = msg.payload;\n\n// Fungsi untuk memfilter data berdasarkan sensor_id 1\nlet filteredData = data.filter(sensor => sensor.sensor_id === 2);\n\n// Mengambil data paling akhir dari hasil filter\nlet latestData = filteredData[0];\n\n// Menyimpan data paling akhir kembali ke msg.payload\nmsg.payload = latestData;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 2240,
+        "wires": [
+            [
+                "2769ae311f6fb8b0"
+            ]
+        ]
+    },
+    {
+        "id": "417a3dd5dc32670b",
+        "type": "function",
+        "z": "ff1940bf5cf0e080",
+        "g": "08b3c61a87d9ac04",
+        "name": "function 7",
+        "func": "let data = msg.payload;\n\n// Fungsi untuk memfilter data berdasarkan sensor_id 1\nlet filteredData = data.filter(sensor => sensor.sensor_id === 3);\n\n// Mengambil data paling akhir dari hasil filter\nlet latestData = filteredData[0];\n\n// Menyimpan data paling akhir kembali ke msg.payload\nmsg.payload = latestData;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 2300,
+        "wires": [
+            [
+                "1f505a5ebc61467d"
+            ]
+        ]
+    },
+    {
+        "id": "e39e5f41050deee8",
+        "type": "debug",
+        "z": "ff1940bf5cf0e080",
+        "g": "08b3c61a87d9ac04",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 2220,
+        "wires": []
+    },
+    {
+        "id": "d026aa4a3c0113ae",
+        "type": "ui_template",
+        "z": "ff1940bf5cf0e080",
+        "g": "46af7f6f3c6f7b09",
+        "group": "452ce4a27b98b96f",
+        "name": "",
+        "order": 9,
+        "width": 16,
+        "height": 7,
+        "format": "<template>\n    <script src=\"https://cdn.jsdelivr.net/npm/chart.js\"></script>\n    <canvas id=\"myChart\" width=\"800\" height=\"300\"></canvas>\n    <div>\n        <!-- Menampilkan data -->\n        <p>Data: {{ data }}</p>\n    </div>\n    <canvas id=\"myChart\" style=\"width:100%;max-width:600px\"></canvas>\n    \n    <script>\n        const xValues = [100,200,300,400,500,600,700,800,900,1000];\n    \n    new Chart(\"myChart\", {\n      type: \"line\",\n      data: {\n        labels: xValues,\n        datasets: [{ \n          data: [860,1140,1060,1060,1070,1110,1330,2210,7830,2478],\n          borderColor: \"red\",\n          fill: false\n        }, { \n          data: [1600,1700,1700,1900,2000,2700,4000,5000,6000,7000],\n          borderColor: \"green\",\n          fill: false\n        }, { \n          data: [300,700,2000,5000,6000,4000,2000,1000,200,100],\n          borderColor: \"blue\",\n          fill: false\n        }]\n      },\n      options: {\n        legend: {display: false}\n      }\n    });\n    </script>\n</template>\n\n\n<script>\n    export default {\n    data() {\n        return {\n            data: null // variabel untuk menyimpan nilai data dari msg.payload\n        };\n    },\n    watch: {\n        msg: function (newData) {\n        }\n    },\n    mounted() {\n        // Inisialisasi chart hanya sekali\n        var ctx = document.getElementById('myChart').getContext('2d');\n        myChart = new Chart(ctx, {\n            type: 'line',\n            data: {\n                labels: [], // Inisialisasi dengan array kosong\n                datasets: [\n                    { \n                        label: 'Temperature', \n                        data: [], \n                        borderColor: 'rgba(0, 123, 255, 1)', \n                        backgroundColor: 'rgba(0, 123, 255, 0.2)', // Ubah warna latar agar sesuai dengan border\n                        borderWidth: 1,\n                        fill: true // Mengaktifkan fill di bawah garis\n                    },\n                    {\n                        label: 'Humidity',\n                        data: [],\n                        borderColor: 'rgba(54, 162, 235, 1)',\n                        backgroundColor: 'rgba(54, 162, 235, 0.2)', // Ubah warna latar agar sesuai dengan border\n                        borderWidth: 1,\n                        fill: true // Mengaktifkan fill di bawah garis\n                    }\n                ]\n            },\n            options: {\n                scales: {\n                    x: {\n                        reverse: false, // Membalikkan sumbu x\n                        title: {\n                            display: true,\n                            text: 'Date, Time' // Title untuk sumbu x\n                        }\n                    },\n                    y: {\n                        beginAtZero: true,\n                        title: {\n                            display: true,\n                            text: 'Value' // Title untuk sumbu y\n                        }\n                    }\n                },\n                plugins: {\n                    title: {\n                        display: true,\n                        text: 'Sensor 1',\n                    },\n                    subtitle: {\n                        display: true,\n                        text: 'Hasil',\n                        color: 'blue',\n                        font: {\n                            size: 12,\n                            family: 'tahoma',\n                            weight: 'normal',\n                            style: 'italic'\n                        },\n                        padding: {\n                            bottom: 10\n                        }\n                    }\n                }\n            }\n        });\n\n        // Berlangganan ke pesan yang masuk dari Node-RED\n        this.$socket.on('msg-input:' + this.id, (msg) => {\n            // Set nilai data dengan payload dari pesan yang diterima\n            this.data = msg.payload;\n        });\n    }\n}\n</script>\n\n<style>\n    /* Anda dapat menambahkan style sesuai kebutuhan */\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "chart2",
+        "x": 960,
+        "y": 1720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0938114153f9430b",
+        "type": "function",
+        "z": "ff1940bf5cf0e080",
+        "g": "230a35f09df02c26",
+        "name": "Write Alarm",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 2540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ae5141cf9dba6fad",
+        "type": "mysql",
+        "z": "ff1940bf5cf0e080",
+        "g": "230a35f09df02c26",
+        "name": "",
+        "x": 570,
+        "y": 2540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b4f93aacd108a8f2",
+        "type": "function",
+        "z": "ff1940bf5cf0e080",
+        "g": "230a35f09df02c26",
+        "name": "Conditioning Alarm",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 2440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "30eab01a37fcf979",
+        "type": "function",
+        "z": "ff1940bf5cf0e080",
+        "g": "230a35f09df02c26",
+        "name": "Show Alert",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 2540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3db59f8ddbcbdb9d",
+        "type": "ui-template",
+        "z": "ff1940bf5cf0e080",
+        "g": "230a35f09df02c26",
+        "group": "315e600614328684",
+        "page": "",
+        "ui": "",
+        "name": "Notification",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <div class=\"text-center\">\n    <v-btn\n      size=\"x-large\"\n      text=\"Click Me\"\n      @click=\"toggleSheet\"\n    ></v-btn>\n\n    <v-bottom-sheet v-model=\"sheet\">\n      <v-card\n        class=\"text-center\"\n        height=\"200\"\n      >\n        <v-card-text>\n          <div>\n            Bottom sheet will close in {{ countdown }} seconds.\n          </div>\n          <v-alert\n            density=\"compact\"\n            text\n            type=\"warning\"\n            class=\"text-center d-flex justify-center align-center\"\n            style=\"flex-direction: column;\"\n          >\n            <v-icon size=\"30\" class=\"mb-2\">mdi-alert</v-icon>\n            <span class=\"text-h6\">Warning</span>\n            <span>Please check notification control for more information.</span>\n          </v-alert>\n        </v-card-text>\n      </v-card>\n    </v-bottom-sheet>\n  </div>\n</template>\n\n<script>\nexport default {\n  data() {\n    return {\n      sheet: false, // Kontrol untuk bottom sheet\n      countdown: 10, // Timer countdown\n      interval: null // Variable for interval ID\n    };\n  },\n  methods: {\n    toggleSheet() {\n      this.sheet = true;\n      this.countdown = 5; // Reset countdown\n      // Mengatur timer untuk menutup sheet dan update countdown setiap detik\n      this.interval = setInterval(() => {\n        if (this.countdown > 0) {\n          this.countdown--;\n        }\n        if (this.countdown === 0) {\n          this.closeSheet();\n        }\n      }, 1000);\n    },\n    closeSheet() {\n      this.sheet = false;\n      clearInterval(this.interval); // Stop the timer\n    },\n  },\n};\n</script>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1030,
+        "y": 2460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2b0872648141d8fb",
+        "type": "ui-template",
+        "z": "ff1940bf5cf0e080",
+        "g": "230a35f09df02c26",
+        "group": "315e600614328684",
+        "page": "",
+        "ui": "",
+        "name": "Notification",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n    <v-row justify=\"space-around\">\n      <v-col cols=\"12\" md=\"6\">\n        <v-dialog\n          transition=\"dialog-top-transition\"\n          width=\"auto\"\n          v-model=\"sheet\"\n        >\n          <template v-slot:default=\"{ isActive }\">\n            <v-card   class=\"text-center\">\n            <v-alert title=\"Alert\" icon=\"$success\" color=\"success\"></v-alert>\n              <v-card-text class=\"text-h6 pa-5\">\n                Please check alert controll!\n              </v-card-text>\n              <v-card-actions class=\"justify-center\">\n                This page will close after {{countdown}}s.\n              </v-card-actions>\n            </v-card>\n          </template>\n        </v-dialog>\n      </v-col>\n    </v-row>\n</template>\n<style>\n  .top-right-icon {\n  position: absolute;\n  top: 0;\n  right: 0;\n  margin: 10px; /* Jarak dari tepi kiri dan atas */\n  \n}\n.small-icon {\n  font-size: 25px; /* Ukuran lebih kecil untuk ikon */\n}\n</style>\n\n\n<style>\n  .top-right-icon {\n  position: absolute;\n  top: 0;\n  right: 0;\n  margin: 10px; /* Jarak dari tepi kiri dan atas */\n  \n}\n.small-icon {\n  font-size: 25px; /* Ukuran lebih kecil untuk ikon */\n}\n</style>\n\n<script>\nexport default {\n  data() {\n    return {\n      sheet: false, // Kontrol untuk bottom sheet\n      countdown: null, // Timer countdown\n      interval: null, // Variable for interval ID\n      lastSecond: null\n    };\n  },\n  watch: {\n    msg: function(){\n       if (this.msg.payload === true) {\n        this.toggleSheet(); // Aktifkan sheet jika payload bernilai true\n      }\n      }\n  },\n  methods: {\n    toggleSheet() {\n      this.sheet = true;\n      this.countdown = 5; // Reset countdown\n      // Mengatur timer untuk menutup sheet dan update countdown setiap detik\n      this.lastSecond = new Date().getSeconds();\n      this.interval = setInterval(() => {\n        const currentSecond = new Date().getSeconds();\n        if (currentSecond !== this.lastSecond) {\n          this.lastSecond = currentSecond;\n          this.countdown--;\n        }\n        if (this.countdown === 0) {\n          this.closeSheet();\n        }\n      }, 1000);\n    },\n    closeSheet() {\n      this.sheet = false;\n      clearInterval(this.interval); // Stop the timer\n    },\n  },\n};\n</script>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1030,
+        "y": 2520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1831b702b2d9b38a",
+        "type": "debug",
+        "z": "ff1940bf5cf0e080",
+        "g": "230a35f09df02c26",
+        "name": "debug 11",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 2420,
+        "wires": []
+    },
+    {
+        "id": "9dc1edfa6c44aad0",
+        "type": "ui-switch",
+        "z": "ff1940bf5cf0e080",
+        "g": "230a35f09df02c26",
+        "name": "",
+        "label": "switch",
+        "group": "315e600614328684",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 790,
+        "y": 2480,
+        "wires": [
+            [
+                "2b0872648141d8fb",
+                "1831b702b2d9b38a"
+            ]
+        ]
+    },
+    {
+        "id": "8035aedac16e43d7",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 1,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "2bda660b8e976805",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 3,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "d8c8517231e51575",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 5,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "91e080c50d673d34",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "164f004bff52c154",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 7,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "f2db49e1b96ece80",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "d5597382b13f415c",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 9,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "611013dee0d80a6c",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 11,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "87d78a1133c6e65c",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 12,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "f27d559f56bd5fb9",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 13,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "9ccf607bf08dd31c",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 14,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "0fd318c79371f8db",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 15,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "fd3a4d740c31cb25",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 16,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "8b92253abd493138",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 18,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "41c11422a3a5579d",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 19,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "16641645010a66e1",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 20,
+        "width": 24,
+        "height": 1
+    },
+    {
+        "id": "a9ffd91d02a15cd2",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "61cb93ff.8cf4a4",
+        "order": 21,
+        "width": 24,
+        "height": 1
+    },
+    {
+        "id": "347f34fdcf96ff31",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "",
+        "order": 2,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "48376bbde0b5cbd7",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "",
+        "order": 5,
+        "width": 13,
+        "height": 1
+    },
+    {
+        "id": "e870818c627d1fdb",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "452ce4a27b98b96f",
+        "order": 1,
+        "width": 20,
+        "height": 1
+    },
+    {
+        "id": "da21df39df012fa0",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "452ce4a27b98b96f",
+        "order": 2,
+        "width": 20,
+        "height": 1
+    },
+    {
+        "id": "3358b474db5195e5",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "452ce4a27b98b96f",
+        "order": 3,
+        "width": 20,
+        "height": 1
+    },
+    {
+        "id": "14094bd14ac75b6a",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "452ce4a27b98b96f",
+        "order": 4,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "2549b7269dc33c09",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "452ce4a27b98b96f",
+        "order": 7,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "5968f94af8ef1fca",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "452ce4a27b98b96f",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "63947ea47c2a3456",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "452ce4a27b98b96f",
+        "order": 10,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "b9bce087bacd8eca",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "452ce4a27b98b96f",
+        "order": 11,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "4091915c819bf757",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "452ce4a27b98b96f",
+        "order": 12,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "d4f35812c29226f8",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "452ce4a27b98b96f",
+        "order": 13,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "93bde4f5c6a565d0",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "452ce4a27b98b96f",
+        "order": 14,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "23a5422c62761689",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "452ce4a27b98b96f",
+        "order": 15,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "4d8a1f55a515fe65",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "452ce4a27b98b96f",
+        "order": 16,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "267a2f3671ef4abd",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "452ce4a27b98b96f",
+        "order": 17,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "80babf297a1bc7b7",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "452ce4a27b98b96f",
+        "order": 18,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "1b4343772d07826a",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "452ce4a27b98b96f",
+        "order": 19,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "77e3804c15733261",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "452ce4a27b98b96f",
+        "order": 20,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "05d3a6b93a3c774e",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "452ce4a27b98b96f",
+        "order": 21,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "e0a3f66525fefb50",
+        "type": "ui_spacer",
+        "z": "ff1940bf5cf0e080",
+        "name": "spacer",
+        "group": "452ce4a27b98b96f",
+        "order": 22,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "ae91f222be969727",
+        "type": "ui_group",
+        "name": "Home",
+        "tab": "cc409f22204b54fd",
+        "order": 1,
+        "disp": false,
+        "width": "18",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "64bdd599f9c61914",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.mqtt-dashboard.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "61d06a7ae922d48f",
+        "type": "ui_group",
+        "name": "Right",
+        "tab": "cc409f22204b54fd",
+        "order": 3,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "03fa6e045770563b",
+        "type": "MySQLdatabase",
+        "name": "Database",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "Aeroponik",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "61cb93ff.8cf4a4",
+        "type": "ui_group",
+        "name": "Date Picker",
+        "tab": "c9bb955efb200be4",
+        "order": 1,
+        "disp": false,
+        "width": "30",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5bd2c1ed0cfe7a87",
+        "type": "ui_group",
+        "name": "History Time",
+        "tab": "c9bb955efb200be4",
+        "order": 1,
+        "disp": false,
+        "width": "18",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "452ce4a27b98b96f",
+        "type": "ui_group",
+        "name": "Center",
+        "tab": "cc409f22204b54fd",
+        "order": 2,
+        "disp": true,
+        "width": 20,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d6aaeb026456f462",
+        "type": "ui-group",
+        "name": "Center",
+        "page": "bf4d3a30094dd5e5",
+        "width": "6",
+        "height": "1",
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "2edf52e4c2e84a2c",
+        "type": "ui_group",
+        "name": "Waktu",
+        "tab": "",
+        "order": 1,
+        "disp": false,
+        "width": "4",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "cc274a3323a2870a",
+        "type": "ui-group",
+        "name": "Left",
+        "page": "bf4d3a30094dd5e5",
+        "width": "3",
+        "height": "1",
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "23a56f6fce23842c",
+        "type": "ui-group",
+        "name": "My Group",
+        "page": "",
+        "width": "12",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "315e600614328684",
+        "type": "ui-group",
+        "name": "Right",
+        "page": "bf4d3a30094dd5e5",
+        "width": "3",
+        "height": "1",
+        "order": 4,
+        "showTitle": true,
+        "className": "",
+        "visible": true,
+        "disabled": "false"
+    },
+    {
+        "id": "cc409f22204b54fd",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "fa-home ",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c9bb955efb200be4",
+        "type": "ui_tab",
+        "name": "Dasboard",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "bf4d3a30094dd5e5",
+        "type": "ui-page",
+        "name": "Dashboard",
+        "ui": "482a7f02c8066535",
+        "path": "/page2",
+        "icon": "view-dashboard",
+        "layout": "grid",
+        "theme": "b26380d73e6e88ec",
+        "order": 2,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "482a7f02c8066535",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "showPageTitle": true,
+        "navigationStyle": "default",
+        "titleBarStyle": "default"
+    },
+    {
+        "id": "b26380d73e6e88ec",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "5px",
+            "groupGap": "5px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "5px"
+        }
     }
 ]
