@@ -2,60 +2,73 @@
 #define INPUT_H
 #include <ArduinoJson.h>
 
-
-// Json
-StaticJsonDocument<512> jsonDoc; // Adjust the size according to your needs
+//inisiasi input
+int IN_1, IN_2;
 
 // Checking Input From Serial Monitor
 void cek_serial(){
   if (Serial.available() > 0) {
     String input = Serial.readString();
     input.trim();  // Hilangkan spasi dan newline
-
-    // Kirim input ke Node-RED melalui MQTT
-    client.publish("nodered/output", input.c_str());
-    Serial.print("Pesan dikirim ke Node-RED: ");
+    if (input == "IN_1HIGH") {
+      Serial.println("IN_1 : HIGH");
+      IN_1 = 1;
+    } else if (input == "IN_1OFF") {
+      Serial.println("IN_1 : OFF");
+      IN_1 = 0;
+    }else if (input == "IN_2HIGH") {
+      Serial.println("IN2 : HIGH");
+      IN_2 = 1;
+    }else if (input == "IN_2LOW") {
+      Serial.println("IN2 : OFF");
+      IN_1 = 0;
+    }
     Serial.println(input);
   }
 }
 
+void input_setup(){
+  IN_1 = IN_2 = 0;
+  pinMode(32, INPUT);
+  pinMode(33, INPUT);
+}
 // Receive Data From Sensor
 // Sensor ID
 
-// Sensor Array
+void read_data_sensor() {
+  // Buat objek JSON
+  StaticJsonDocument<256> doc;
 
+  // Array untuk menampung data random
+  JsonArray dataArray = doc.to<JsonArray>();
 
+  // Generate 12 data random dan tambahkan ke array
+  for (int i = 0; i < 12; i++) {
+    float randomValue = random(20, 100); // Generate data random (1.0 - 10.0)
+    dataArray.add(randomValue); // Tambahkan data ke JSON array
+  }
 
+  // Data ke-13 dan ke-14 diisi secara manual
+  dataArray.add(IN_1);  // Data manual ke-13 #lv1
+  dataArray.add(IN_2);  // Data manual ke-14 #lv2
 
-void read_data_sensor(){
-  // Dummy sensor
-  // int val_1 = random(10,30);
-  // int val_2 = random(60,100);
+  // Serialize JSON ke string
+  String jsonString;
+  serializeJson(doc, jsonString);
 
-  int val1_1 = random(10,30);
-  int val1_2 = random(60,100);
-
-  int val2_1 = random(10,30);
-  int val2_2 = random(60,100);
-
-  Serial.println("read data sensor");
-  jsonDoc.clear(); // Clear previous data
-  JsonArray dataArray = jsonDoc.to<JsonArray>();
-  dataArray.add(val_1);
-  dataArray.add(val_2);
-  dataArray.add(val1_1);
-  dataArray.add(val1_2);
-  dataArray.add(val2_1);
-  dataArray.add(val2_2);
-  char jsonBuffer[512];
-  serializeJson(dataArray, jsonBuffer);
-
+  // Konversi String ke const char*
+  const char* payload = jsonString.c_str();
+  
+  // Periksa koneksi dan publish data
   if (!client.connected()) {
     reconnect();
   }
-  client.publish("sensor/data", jsonBuffer);
+  client.publish("sensor/data1", payload);  // Publikasi payload ke topik
 
-  Serial.println(jsonBuffer);
+  // Print JSON string ke Serial
+  // Serial.println(jsonString);
 }
+
+
 
 #endif 
