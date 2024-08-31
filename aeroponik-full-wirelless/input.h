@@ -63,7 +63,7 @@ void read_data_sensor() {
   if (!client.connected()) {
     reconnect();
   }
-  client.publish("sensor/data1", payload);  // Publikasi payload ke topik
+  client.publish("slave2/data", payload);  // Publikasi payload ke topik
 
   // Print JSON string ke Serial
   // Serial.println(jsonString);

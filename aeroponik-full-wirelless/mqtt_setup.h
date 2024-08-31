@@ -65,15 +65,37 @@ void callback(char* topic, byte* payload, unsigned int length) {
 //ALARM
   if (String(topic) == "slave1/alarm") {
     if (message == "ALARM1_ON") {
-      Serial.println("Jalankan apapun disini ON ALARM");
+      Serial.println("Jalankan apapun disini ON ALARM S1");
     } else if (message == "ALARM1_OFF") {
-      Serial.println("Hentikan apapun disini OFF ALARM");
+      Serial.println("Hentikan apapun disini OFF ALARM S1");
     }
   }
 
   //------------------SLAVE 2 -------------------------------------------
-
-
+  //POMPA1
+ if (String(topic) == "slave2/pompa1") {
+    if (message == "ON") {
+      Serial.println("Jalankan apapun disini ON S2P1");
+    } else if (message == "OFF") {
+      Serial.println("Hentikan apapun disini OFF S2P1");
+    }
+  }
+//POMPA2
+ if (String(topic) == "slave2/pompa2") {
+    if (message == "ON") {
+      Serial.println("Jalankan apapun disini ON S2P2");
+    } else if (message == "OFF") {
+      Serial.println("Hentikan apapun disini OFF S2P2");
+    }
+  }
+//ALARM
+  if (String(topic) == "slave2/alarm") {
+    if (message == "ALARM2_ON") {
+      Serial.println("Jalankan apapun disini ON ALARM S2");
+    } else if (message == "ALARM2_OFF") {
+      Serial.println("Hentikan apapun disini OFF ALARM S2");
+    }
+  }
 
 /*
   // Jika memilih Opsi 1
