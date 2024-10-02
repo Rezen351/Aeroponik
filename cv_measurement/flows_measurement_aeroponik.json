@@ -1,0 +1,271 @@
+[
+    {
+        "id": "f97620504124574d",
+        "type": "tab",
+        "label": "Test  Aeroponik",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "1a4d10c76ee1ab90",
+        "type": "mqtt out",
+        "z": "f97620504124574d",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "6c8c860f6224d373",
+        "x": 530,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "bce82d3c2b63df17",
+        "type": "mqtt in",
+        "z": "f97620504124574d",
+        "name": "",
+        "topic": "test/aeroponik/reading",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "6c8c860f6224d373",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 240,
+        "y": 380,
+        "wires": [
+            [
+                "7cd00e4694d9af7d"
+            ]
+        ]
+    },
+    {
+        "id": "7cd00e4694d9af7d",
+        "type": "debug",
+        "z": "f97620504124574d",
+        "name": "Debug Aeroponik",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 570,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "e971183d71ef4b35",
+        "type": "inject",
+        "z": "f97620504124574d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "test/aeroponik/settings/ppm",
+        "payload": "6.1",
+        "payloadType": "num",
+        "x": 250,
+        "y": 200,
+        "wires": [
+            [
+                "1a4d10c76ee1ab90"
+            ]
+        ]
+    },
+    {
+        "id": "fc49686e0ae86ea0",
+        "type": "inject",
+        "z": "f97620504124574d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "test/aeroponik/settings/dimx0",
+        "payload": "600",
+        "payloadType": "num",
+        "x": 250,
+        "y": 240,
+        "wires": [
+            [
+                "1a4d10c76ee1ab90"
+            ]
+        ]
+    },
+    {
+        "id": "6b9a9774a51a0f7e",
+        "type": "inject",
+        "z": "f97620504124574d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "test/aeroponik/settings/dimx1",
+        "payload": "1500",
+        "payloadType": "num",
+        "x": 170,
+        "y": 280,
+        "wires": [
+            [
+                "1a4d10c76ee1ab90"
+            ]
+        ]
+    },
+    {
+        "id": "92951db6d0d224bd",
+        "type": "inject",
+        "z": "f97620504124574d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "test/aeroponik/settings/lim",
+        "payload": "10.1",
+        "payloadType": "num",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "1a4d10c76ee1ab90"
+            ]
+        ]
+    },
+    {
+        "id": "cda0451b9c4ddbbd",
+        "type": "inject",
+        "z": "f97620504124574d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "test/aeroponik/settings/lim",
+        "payload": "19.5",
+        "payloadType": "num",
+        "x": 250,
+        "y": 120,
+        "wires": [
+            [
+                "1a4d10c76ee1ab90"
+            ]
+        ]
+    },
+    {
+        "id": "a6fb5fa52b5e5d5b",
+        "type": "inject",
+        "z": "f97620504124574d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "test/aeroponik/settings/lim",
+        "payload": "30",
+        "payloadType": "num",
+        "x": 240,
+        "y": 160,
+        "wires": [
+            [
+                "1a4d10c76ee1ab90"
+            ]
+        ]
+    },
+    {
+        "id": "6c8c860f6224d373",
+        "type": "mqtt-broker",
+        "name": "Aedes Local",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]

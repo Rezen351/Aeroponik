@@ -1,0 +1,90 @@
+[
+    {
+        "id": "963a8acd02fc59d8",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "18bb74de3815328c",
+        "type": "exec",
+        "z": "963a8acd02fc59d8",
+        "command": "C:/Users/R-1/Documents/Project_Aeroponic/.venv/Scripts/python C:/Users/R-1/Documents/Project_Aeroponic/capture_image_offline -th ",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "5",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Python Script",
+        "x": 360,
+        "y": 120,
+        "wires": [
+            [
+                "1508621f06c2123c"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "5f31581da6d2ef6b",
+        "type": "inject",
+        "z": "963a8acd02fc59d8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "19.9",
+        "payloadType": "str",
+        "x": 150,
+        "y": 120,
+        "wires": [
+            [
+                "18bb74de3815328c"
+            ]
+        ]
+    },
+    {
+        "id": "456094f88ef731c2",
+        "type": "debug",
+        "z": "963a8acd02fc59d8",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 700,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "1508621f06c2123c",
+        "type": "json",
+        "z": "963a8acd02fc59d8",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 550,
+        "y": 60,
+        "wires": [
+            [
+                "456094f88ef731c2"
+            ]
+        ]
+    }
+]
