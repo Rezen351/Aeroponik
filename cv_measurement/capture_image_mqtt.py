@@ -55,7 +55,18 @@ scheduler = sched.scheduler(time.time, time.sleep)
 # Output directory
 output_dir = os.path.expanduser("~/Aeroponik")
 im_path = "Sample"
-im_path = os.path.join(im_path, random.choice(os.listdir(im_path)))
+
+# Mengambil file terakhir di folder Sample berdasarkan waktu modifikasi
+def get_latest_file(directory):
+    files = [os.path.join(directory, f) for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]
+    if not files:
+        raise ValueError(f"No files found in {directory}")
+    latest_file = max(files, key=os.path.getmtime)  # Mendapatkan file dengan waktu modifikasi terbaru
+    return latest_file
+
+# Ambil file terakhir di folder Sample
+im_path = get_latest_file(im_path)
+# im_path = os.path.join(im_path, random.choice(os.listdir(im_path)))
 
 # MQTT callback when a message is received
 def on_message(client, userdata, message):
